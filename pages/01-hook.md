@@ -1,11 +1,19 @@
 ---
 layout: center
+class: text-center
 ---
 
-# Act 0 — Hook
+<!-- ACT 0 — HOOK · 7 min · 2 slides · live demo cap 5:00 -->
+<!-- No section divider here by design: the talk opens cold. -->
 
-Placeholder. Live demo, debug panel open, no explanation. Cap 5:00.
+# Let's build something
 
-<!--
-Presenter notes: TBD in Phase 4.
--->
+A dashboard, talked into existence — debug panel open from the first keystroke, and no explanation offered.
+
+<!-- 🔴 LIVE · react-loop-demo · cap 5:00 · ambiguous prompt last, so it asks a question back -->
+
+---
+
+# What just happened?
+
+Hold that question — we are not answering it for another half hour.
