@@ -3,7 +3,9 @@ layout: section
 ---
 
 <!-- ACT 6 — LOCAL MODELS + THE FUTURE · 7 min · 4 slides · live demo cap 3:00 -->
-<!-- Directly answers the attendee-requested topics. Open weights is motivated here, not listed in Act 2. -->
+<!-- Directly answers the attendee-requested topics (Ollama, future of tech). -->
+<!-- Open weights is motivated here rather than listed as an attribute back in Act 2. -->
+<!-- Act ends on the counterweight by design — it earns Act 7 the right to make its argument. -->
 
 # On your own machine
 
@@ -11,24 +13,97 @@ layout: section
 
 # Open weights, plainly
 
-Some models are published as files you can download and some are services you rent — that single difference is why running one at home is even possible.
+<v-clicks>
+
+- Some models are a **service you rent**. You send text away; someone else runs it.
+- Some are **files you download**. Multi-gigabyte files of numbers, yours to keep.
+- That is the whole distinction — and it is why running one at home is possible at all.
+- Rented ones are generally stronger. Downloaded ones are private, free to run, and cannot be taken away.
+
+</v-clicks>
+
+<!--
+Somebody asked about running these locally, so let me do the one distinction that makes it make sense.
+
+Some models are a service. You send your text to a company, their computers do the work, you get an answer back. Everything most people use is this.
+
+Others are published as files. Genuinely just files — several gigabytes of numbers — that you download and run on your own machine. That is what open weights means. Not open source exactly, and the licences vary, but the practical fact is: you have the file.
+
+That is the entire reason local models exist. You cannot run a rented model at home because you were never given it.
+
+Trade-offs are honest and simple. The rented ones are generally more capable, especially at the hard end. The downloaded ones are private — nothing leaves the room — free once you have them, work without internet, and cannot be discontinued, price-raised, or have their behaviour changed underneath you next Tuesday. For some jobs that matters more than raw capability.
+-->
 
 ---
 
 # Off the internet, on this laptop
 
-Pull the wifi and ask it something anyway.
+<v-clicks>
 
-<!-- 🔴 LIVE · Ollama, local · cap 3:00 -->
+- No account. No subscription. No network.
+
+</v-clicks>
+
+<!--
+🔴 LIVE — Ollama, local · HARD CAP 3:00
+
+Turn the wifi off first, visibly, and say what you are doing. That is the whole demo — the disconnection is the point, not the answer.
+
+Ask it something ordinary. Let it be a bit slower than the room expects, and let that be visible; do not apologise for it. The honest framing is that this is a laptop doing something that required a data centre three years ago.
+
+Worth saying while it generates: this one is a few gigabytes and it is running on the machine in front of you. Nothing is being sent anywhere. For anything genuinely confidential — medical, financial, legal, family — that property is the entire argument, and it does not require trusting anybody's privacy policy.
+
+Do not oversell the quality. It is visibly weaker than the frontier models and pretending otherwise costs credibility. Which sets up the next slide.
+
+Three minutes. Turn the wifi back on before Act 7 — the last slide has a URL on it.
+-->
 
 ---
 
 # When small is the right answer
 
-Cost, privacy and latency all favour the small model — and the frontier model is often better spent judging its work than doing it.
+<v-clicks>
+
+- Cost, privacy, and speed all point the same way: smaller than you think.
+- Frontier models for judgment and ambiguity. Small models for volume and well-specified work.
+- **Best pattern going:** let the small model do it, and the big one check it.
+- Keep it swappable — this changes every few months, so don't marry one.
+
+</v-clicks>
+
+<!--
+So when is small actually right, beyond privacy.
+
+More often than people assume. There is a reflex to reach for the most capable model for everything, and it is mostly wasted. Once a task is well specified and repetitive, a small model does it fine, faster and at a fraction of the cost — and cost stops being theoretical the moment you are running something thousands of times rather than chatting.
+
+The pattern I keep coming back to, from an engineer at AWS who builds these systems: small model does the work, big model reviews it. You spend the expensive judgment only on judging, which is the part that needed it.
+
+And build so you can swap. The specific best model right now will not be the best model in six months. Anyone who has hardwired themselves to one is going to have a bad time — including, and I mean this, in how you personally work. Do not get too attached.
+-->
 
 ---
 
 # The honest counterweight
 
-Most corporate AI pilots are failing, and the ones that aren't were aimed at growth rather than headcount.
+<v-clicks>
+
+- MIT: roughly **95%** of corporate generative-AI pilots deliver no measurable return.
+- The ones that work were aimed at **growth**, not at cutting headcount — 2–3× more likely, per McKinsey.
+- 43% of workers admit shipping AI output they suspected was wrong.
+- The technology is real. Most attempts to apply it are still bad.
+
+</v-clicks>
+
+<!--
+Before I finish, the slide that stops this being a sales pitch — and it is the honest state of things.
+
+MIT looked at corporate generative-AI pilots and found something like ninety-five percent produced no measurable return. Ninety-five. Everything I have shown you tonight is real and I stand behind all of it, and simultaneously most organisations trying to do this are getting nothing.
+
+That is not a contradiction, and the pattern in the failures is instructive. McKinsey found the organisations getting real value were two to three times more likely to be using it for growth — doing more, doing new things — than for efficiency, meaning doing the same things with fewer people. Aim it at subtraction, get very little. Aim it at expansion, get somewhere.
+
+And one more, which points straight at the close: a survey found forty-three percent of workers admitted shipping AI output they suspected was wrong. Not could not tell was wrong. Suspected was wrong, and shipped it anyway.
+
+That is not a technology failure. That is a people-under-pressure failure, and no better model fixes it.
+
+Hold that number. It is exactly where I want to end.
+-->
