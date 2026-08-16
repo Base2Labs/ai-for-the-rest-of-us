@@ -28,7 +28,7 @@ Syntax and algorithms got cheap; problem decomposition and systems thinking didn
 
 # The bottleneck moved — it didn't disappear
 
-It went upstream to deciding what to build and downstream to keeping it alive, which is why "will there be anything left for me to do" is the wrong shape of question.
+Say the fear out loud first — *is this coming for my job too?* — then answer it: the work went upstream to deciding what to build and downstream to keeping it alive.
 
 ---
 
