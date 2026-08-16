@@ -222,16 +222,33 @@ Only after all of that does anything get written down. Which brings us to the tr
 
 ---
 
+---
+layout: two-cols
+layoutClass: gap-12
+---
+
 # Writing it up is how you advance
 
 <v-clicks>
 
 - The write-up is the **gate**: no document, no next topic.
-- So the summarising step can't be quietly skipped — and that step is the learning.
-- The document must capture *the questions you actually asked*, not just the planned material.
+- So the summarising step can't be skipped — and that step *is* the learning.
+- It must capture *the questions you actually asked*, not just the planned material.
 - The document is a **byproduct** of understanding, not a substitute for it.
 
 </v-clicks>
+
+::right::
+
+```mermaid {theme: 'neutral', scale: 0.66}
+flowchart TD
+    T["Teach me<br/>the next topic"]
+    Q["Quiz me —<br/>and check<br/>my answers"]
+    A["Answer my<br/>own questions"]
+    W["Write it up<br/>questions included"]
+    T --> Q --> A --> W
+    W -->|"gate: only now<br/>may we advance"| T
+```
 
 <!--
 Here is the mechanism that makes it work rather than just sound nice.

@@ -31,6 +31,9 @@ The next ten minutes take it apart. This is the centre of the talk — everythin
 -->
 
 ---
+layout: two-cols
+layoutClass: gap-12
+---
 
 # Reason, then act
 
@@ -42,6 +45,22 @@ The next ten minutes take it apart. This is the centre of the talk — everythin
 - Then round again, with the observation added to what it knows.
 
 </v-clicks>
+
+::right::
+
+```mermaid {theme: 'neutral', scale: 0.68}
+flowchart TD
+    A["Agent program<br/>ordinary code"]
+    M["Model<br/>reasons"]
+    T[("Tools")]
+    D(["Final answer"])
+
+    A -->|"whole conversation"| M
+    M -->|"tool call"| A
+    A -->|"run it"| T
+    T -->|"observation"| A
+    M -.->|"nothing to call"| D
+```
 
 <!--
 The pattern has a name — ReAct, for reason and act — and it comes from a paper by Yao and colleagues in 2022. That is worth a beat: this is not new, and it is not proprietary. It is a published idea that everyone now builds on.

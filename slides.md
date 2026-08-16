@@ -7,11 +7,15 @@ info: |
 class: text-center
 transition: slide-left
 mdc: true
+colorSchema: light
+lineNumbers: false
+drawings:
+  persist: false
 ---
 
 # AI for the Rest of Us
 
-Scaffold placeholder — content lands in later phases.
+What changed, how the loop actually works, and how to work with it without shrinking.
 
 ---
 src: ./pages/01-hook.md

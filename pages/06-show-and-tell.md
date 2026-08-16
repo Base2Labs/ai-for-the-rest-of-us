@@ -134,16 +134,33 @@ Under it is the same loop from Act 3, written by hand — no framework — and c
 
 ---
 
+---
+layout: two-cols
+layoutClass: gap-12
+---
+
 # The next problem
 
 <v-clicks>
 
 - Agents throw away everything they learn at the end of every task.
-- Every clarification, correction, and hard-won decision — discarded on completion.
+- Every clarification and correction — discarded on completion.
 - Tomorrow it makes the same mistake, and you correct it the same way.
-- The shape of the fix: feed the corrections back in, so the system gets better at *your* work.
+- The fix has a familiar shape.
 
 </v-clicks>
+
+::right::
+
+```mermaid {theme: 'neutral', scale: 0.66}
+flowchart TD
+    D["Do the work"]
+    R["Reflect on what<br/>was learned"]
+    C["Curate it into<br/>reusable context"]
+    N["Next task<br/>starts smarter"]
+    D --> R --> C --> N
+    N -->|"gate: the lesson<br/>gets written down"| D
+```
 
 <!--
 Last one, and it is the honest "this is not finished" slide.
@@ -155,6 +172,10 @@ Tomorrow it makes the same mistake. You correct it the same way. Forever.
 Which is absurd when you say it out loud, because that discarded material is the most valuable thing produced all day. It is the accumulated knowledge of how work is actually done here, and it is being deleted on completion.
 
 There is a real fix taking shape — the shape is a learning loop. Capture what was learned during execution, curate it, feed it back in, so the system gets better at your specific work over time rather than starting fresh every morning.
+
+Now point at the diagram and say the thing, because this is my favourite fact in the talk. That shape on the right is the same shape as the one from twenty minutes ago, when I showed you how I learn a hard topic. Do the work, reflect on it, write down what changed, and only then advance.
+
+They are the same loop. One is pointed at an agent and one is pointed at me — and I actually built the personal version in order to learn the agent version. The influence ran backwards. If you take one structural idea out of tonight, it is that anything which improves — a person, a team, a piece of software — is running some version of this, and the step everyone skips is writing it down.
 
 I will not pretend it is solved. It is genuinely the hard problem in this field right now. But notice it is the same idea as the last two slides, one level up: the thing that improves is whatever gets written down and read again.
 

@@ -1,0 +1,79 @@
+/* Projector legibility pass — Phase 5.
+   Assumptions: a bright room, a screen share or a mediocre projector, and people
+   at the back. So: system fonts (nothing fetched at build or view time), high
+   contrast, and type sized well above web defaults. */
+
+.slidev-layout {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  color: #14181f;
+  background: #fff;
+}
+
+.slidev-layout h1 {
+  font-size: 2.5rem;
+  line-height: 1.15;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 1rem;
+  letter-spacing: -0.015em;
+}
+
+.slidev-layout h2 {
+  font-size: 1.75rem;
+  font-weight: 650;
+  color: #0f172a;
+}
+
+.slidev-layout ul > li {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 0.6rem;
+}
+
+.slidev-layout p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* Bold carries the point on nearly every slide — make it actually read as bold. */
+.slidev-layout strong {
+  font-weight: 700;
+  color: #0f172a;
+}
+
+/* Code is texture, narrated rather than read — but it still has to be visible
+   from the back of the room, so it stays larger than a normal code sample. */
+.slidev-layout pre,
+.slidev-layout code {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Section dividers: one word, as large as it will go. */
+.slidev-layout.slidev-layout-section h1,
+.slidev-layout.section h1 {
+  font-size: 3.25rem;
+}
+
+/* Two-column slides (the payload comparison, the loop diagram) run tight. */
+.slidev-layout.slidev-layout-two-cols pre,
+.slidev-layout.slidev-layout-two-cols code {
+  font-size: 0.8rem;
+  line-height: 1.45;
+}
+
+.slidev-layout.slidev-layout-two-cols h1 {
+  font-size: 1.9rem;
+}
+
+/* Mermaid: let diagrams breathe and keep their labels readable at distance. */
+.slidev-layout .mermaid {
+  display: flex;
+  justify-content: center;
+}
+
+.slidev-layout .mermaid svg {
+  max-width: 100%;
+  height: auto;
+}
