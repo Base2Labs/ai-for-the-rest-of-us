@@ -2,7 +2,10 @@
 layout: section
 ---
 
-<!-- ACT 6 — LOCAL MODELS · ~6 min · 3 slides · live demo cap 3:00 -->
+<!-- ACT 6 — LOCAL MODELS · ~8 min · 4 slides · live demo cap 3:00 -->
+<!-- Ends on "The next problem", moved here from Act 5. It is the pivot into the close: -->
+<!-- its last line hands straight to "What this does to you", which only works if nothing -->
+<!-- follows it. Do NOT add slides after it. -->
 <!-- Purely local models now. The counterweight moved to Act 7, where it belongs. -->
 <!-- Directly answers the attendee-requested topics (Ollama, future of tech). -->
 <!-- Open weights is motivated here rather than listed as an attribute back in Act 2. -->
@@ -71,4 +74,47 @@ More often than people assume. There is a reflex to reach for the most capable m
 The pattern I keep coming back to, from an engineer at AWS who builds these systems: small model does the work, big model reviews it. You spend the expensive judgment only on judging, which is the part that needed it.
 
 And build so you can swap. The specific best model right now will not be the best model in six months. Anyone who has hardwired themselves to one is going to have a bad time — including, and I mean this, in how you personally work. Do not get too attached.
+-->
+
+---
+layout: two-cols
+---
+
+# The next problem
+
+- Every skill and instruction file so far — **you** wrote it, by hand, when you happened to notice.
+- So you capture the lessons you caught, on the days you had the patience. Nothing from the tasks you weren't watching.
+- The open problem: **the system writing its own**, from watching itself work.
+- Nobody has this solved. But the shape is already familiar.
+
+::right::
+
+```mermaid {scale: 0.66}
+flowchart TD
+    D["Do the work"]
+    R["Reflect on what<br/>was learned"]
+    C["Curate it into<br/>reusable context"]
+    N["Next task<br/>starts smarter"]
+    D --> R --> C --> N
+    N -->|"gate: the lesson<br/>gets written down"| D
+```
+
+<!--
+Last one before I finish, and it is the honest "this is not finished" slide.
+
+Some of you are already forming the objection, so let me say it for you: I told you the fix an hour ago. Write it down once, call it a skill, stop re-explaining yourself. That is real, and you should go and do it.
+
+Here is the limit. Every one of those files exists because a person noticed something and stopped to write it down. So you capture the lessons you happened to catch, on the days you had the patience — and nothing at all from the tasks you were not watching. The writing down works fine. The noticing is what does not scale.
+
+What is missing is the system doing it itself. Finishing a piece of work, looking back over how it actually went, pulling out what it learned, and folding that into the instructions for next time — with nobody sitting there authoring it.
+
+That is genuinely the hard problem in this field right now and I am not going to pretend otherwise. I have spent a few months on it and what I have is a working sketch, not an answer.
+
+Now point at the diagram, because this is my favourite fact in the talk. That shape is the same shape as the one from earlier, when I showed you how I learn a hard topic. Do the work, reflect on it, write down what changed, and only then advance.
+
+They are the same loop. One is pointed at an agent and one is pointed at me — and I built the personal version in order to understand the agent version. The influence ran backwards.
+
+If you take one structural idea out of tonight, it is that anything which improves — a person, a team, a piece of software — is running some version of this, and the step everyone skips is writing it down.
+
+And that is also true of people. Which is where I want to finish.
 -->
