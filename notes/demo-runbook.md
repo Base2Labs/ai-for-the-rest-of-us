@@ -57,7 +57,7 @@ overview.
 
 | Slide | What |
 |---:|---|
-| **2** | 🔴 Act 0 demo — talk a dashboard into existence |
+| **2** | 🔴 Act 0 demo — "This would normally take a developer weeks" |
 | 3 | "What just happened?" — the beat, then Act 1 |
 | 16 | ReAct loop diagram |
 | **22** | 🔴 Act 3 demo — replay the panel |
@@ -106,8 +106,16 @@ overview.
 
 ## Act 0 — Talk a dashboard into existence · cap 5:00
 
-**Open cold.** No introduction, no agenda slide. Open the app and start typing.
+**Say the two lines on the slide, then open the app.** No introduction, no agenda.
 Debug panel on from the first keystroke, and it stays on.
+
+> *This would normally take a developer weeks. And I'm not going to write any code.*
+
+Those lines exist because a cold open only works if the room can tell what is
+remarkable, and most of this room cannot — they have never had to know that
+software normally takes weeks and costs money. Without that yardstick the best
+five minutes in the talk lands on nothing. The lines give away the price, not the
+mechanism; Act 3 still keeps the mystery.
 
 **Say almost nothing.** Every explanation spent here is one you cannot spend in
 Act 3, and the whole design of the talk is that they watch the machinery before

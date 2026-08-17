@@ -6,10 +6,18 @@ class: text-center
 <!-- ACT 0 — HOOK · 7 min · 2 slides · live demo cap 5:00 -->
 <!-- No section divider here by design: the talk opens cold. -->
 
-# Let's build something
+# This would normally take a developer weeks
+
+**And I'm not going to write any code.**
 
 <!--
 🔴 LIVE — react-loop-demo · HARD CAP 5:00 · full runbook in notes/demo-runbook.md
+
+Say exactly these two lines, then open the app. Nothing else.
+
+They are here because a cold open only works if the room can tell what is remarkable, and most of this room cannot. The engineers will watch a dashboard appear from a sentence and know that is absurd. Everybody else will watch a dashboard appear and think: that is a website. They have never had to know that software normally takes weeks and costs money, so they have no yardstick — and without one, the best five minutes in the talk lands on nothing.
+
+Note what these two lines do NOT give away: how any of it works. That is the mystery, and Act 3 keeps it. Stakes are not a spoiler. Give them the price and the constraint, withhold the mechanism.
 
 Do not introduce yourself. Do not show an agenda. Open the app and start typing.
 
