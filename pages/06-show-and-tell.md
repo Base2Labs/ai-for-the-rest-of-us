@@ -124,31 +124,36 @@ Under it is the same loop from Act 3, written by hand — no framework — and c
 -->
 
 ---
+layout: default
+class: refs
+---
 
 # The ones I didn't show you
 
 - **Math Recall** — drills times tables. Built because my kids needed one.
 - **SafeSpend** — tells me what I can actually spend this month, from my own budget data.
-- **Observatory** — a live 3D view of the servers running in my house.
-- **RepoX-Ray** — reads a codebase's history and reports how it really gets worked on.
+- **Game server manager** — spins a server up and down so nobody has to ask me.
 - **Task Picker** — reads my notes and tells me what to do next.
-- **None of these would have existed five years ago.** Ask me about any of them afterwards.
+- **RepoX-Ray** — reads a codebase's history and reports how it really gets worked on.
+- **Agent Orchestrator** — agents that pick up a ticket and open a pull request, unattended.
+- **Homelab GitOps** — the servers in my house, defined as code so I can rebuild them from scratch.
+
+**None of these would have existed five years ago.** Ask me about any of them afterwards.
 
 <!--
-Thirty seconds on this slide, no more. Do not walk through them — the list is the point, not the contents.
+Thirty seconds. Do not walk through them — the length of the list is the point, not the contents.
 
-The two at the top are the ones for this room. Math Recall exists because my kids needed to drill times tables and the apps I found were bad. SafeSpend exists because I wanted one number — what can I actually spend this month — and nothing gave me it. Neither is clever. Both took an evening or two.
+The top two are the ones for this room. Math Recall exists because my kids needed to drill times tables and the apps I found were bad. SafeSpend exists because I wanted one number — what can I actually spend this month — and nothing would give me it. Neither is clever. Both took an evening or two.
 
-That is the Act 1 argument arriving with receipts. Remember: software used to be worth building only if enough people needed it. Every one of these is worth building for exactly one person with one problem, and that person built it.
+That is the Act 1 argument arriving with receipts. Software used to be worth building only if enough people needed it; every one of these is worth building for exactly one person with one problem, and that person built it.
 
-Say the last line and mean it: none of these would have existed five years ago. Not because they are hard, but because they were never worth anybody's month.
+The bottom two are the other end of the range — an orchestrator that runs agents unattended and opens pull requests, and the homelab defined entirely as code. Same tools, wildly different scale. Do not go into either unless somebody asks.
 
-Then leave it: I will put the links up at the end, and I am happy to talk about any of these afterwards if one of them sounds useful to you. That gives the quiet people in the room something concrete to ask about later, which is usually where the good conversations happen.
+Then land the last line and mean it: none of these would have existed five years ago. Not because they are hard, but because they were never worth anybody's month.
+
+And leave the invitation open — links are at the end, happy to talk about any of them afterwards. That gives the quieter people something concrete to come and ask about, which is usually where the good conversations happen.
 -->
 
----
-layout: two-cols
-layoutClass: gap-12 narrow-cols
 ---
 
 # The next problem

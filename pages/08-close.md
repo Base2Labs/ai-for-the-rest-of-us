@@ -143,22 +143,22 @@ class: refs
 
 # Take this with you
 
-Everything from tonight. **The private ones — just ask and I'll add you.**
+**🔒 = private. Just ask and I'll add you.**
 
-**The learning method** + the fill-in template — *public, and not about programming*
-`github.com/base2labs/ai-for-the-rest-of-us` → `artifacts/`
-
-**These slides**, with everything I said over the top of them — *public*
-`base2labs.github.io/ai-for-the-rest-of-us`
-
-| Project | Repo |
+| | Where |
 |---|---|
+| **The learning method** + the fill-in template — *not about programming* | `base2labs/ai-for-the-rest-of-us` → `artifacts/` |
+| **These slides**, with everything I said over them | `base2labs.github.io/ai-for-the-rest-of-us` |
 | The dashboard from the first five minutes | `base2labs/react-loop-demo` 🔒 |
 | Math Recall — times tables | `base2labs/math-recall` 🔒 |
 | SafeSpend — what can I actually spend | `base2labs/safespend` 🔒 |
+| Game server manager | `base2labs/enshrouded-server-manager` 🔒 |
 | RepoX-Ray — how a codebase really gets worked on | `base2labs/RepoX-Ray` 🔒 |
-| Observatory — live 3D view of my servers | `base2labs/k3s-observatory` |
+| Agent Orchestrator — unattended agents, real PRs | `base2labs/agent-orchestrator` 🔒 |
+| Homelab, defined as code | `base2labs/base2labs-gitops` 🔒 |
+| Dev environment — one container for everything | `base2labs/dev-environment` 🔒 |
 | Task Picker — what should I do next | `base2labs/obsidian-ai-task-picker` |
+| Code consistency experiment | `base2labs/ai-code-consistency-experiment` |
 
 <!--
 Advance to this during questions and leave it up. People will photograph it.
@@ -167,7 +167,7 @@ Say the one line that matters: the padlocked ones are private, but that is not m
 
 The first item is still the one I actually care about. It is the method from earlier, and it is the only thing here that works for someone who will never write a line of code. If one person in this room tries it on something they are trying to learn, tonight was worth it.
 
-⚠️ The orchestrator project is deliberately not on this list — it lives in my employer's GitHub organisation, so it is not mine to share. Say that plainly if anybody asks; it is a better answer than a link nobody can open.
+⚠️ The orchestrator on this list is MINE (base2labs/agent-orchestrator) and can be shared. There is a separate one at work, in my employer's GitHub organisation, which is not mine to give away — if anybody asks about the work version, say that plainly. It is a better answer than a link nobody can open.
 -->
 
 ---

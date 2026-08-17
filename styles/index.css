@@ -105,11 +105,11 @@
 }
 
 .slidev-layout.refs table {
-  font-size: 0.95rem;
-  margin-top: 0.5rem;
+  font-size: 0.86rem;
+  margin-top: 0.4rem;
 }
 
 .slidev-layout.refs td,
 .slidev-layout.refs th {
-  padding: 0.28rem 0.6rem 0.28rem 0;
+  padding: 0.18rem 0.6rem 0.18rem 0;
 }

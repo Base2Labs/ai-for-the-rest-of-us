@@ -67,7 +67,7 @@ overview, and `g` opens a go-to-slide box. (`f` is fullscreen.)
 | **23** | 🔴 Act 3 demo — replay the panel |
 | 40 | Learning-loop diagram (personal) |
 | **44** | 🔴 Act 5 demo — ask the vault |
-| 46 | "The ones I didn't show you" — point back to this in Q&A |
+| 47 | "The ones I didn't show you" — point back to this in Q&A |
 | 47 | Learning-loop diagram (agent) — same shape as 40, on purpose |
 | **50** | 🔴 Act 6 demo — Ollama over RDP |
 | 52 | ▸ "What this does to you" — the close begins |
