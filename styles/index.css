@@ -87,3 +87,19 @@
   max-width: 100%;
   height: auto;
 }
+
+/* Reference slides (Sources) carry more entries than a normal slide, and people
+   photograph them rather than read them from the back. Tighter is correct here. */
+.slidev-layout.refs ul > li {
+  font-size: 1.02rem;
+  line-height: 1.35;
+  margin-bottom: 0.35rem;
+}
+
+.slidev-layout.refs p {
+  font-size: 1.05rem;
+}
+
+.slidev-layout.refs code {
+  font-size: 0.85rem;
+}

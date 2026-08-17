@@ -118,15 +118,6 @@ Automating today's work makes you smaller.<br/>Reaching past your grasp makes yo
 The good news: appetite for hard thinking is **not fixed**. It responds to context.
 
 Which means it's a choice, repeatedly — and you can build the conditions for it.
-
-<div class="mt-8 text-xl">
-
-**The method, free — and not about programming:**
-
-<a href="https://github.com/base2labs/ai-for-the-rest-of-us/tree/main/artifacts">github.com/base2labs/ai-for-the-rest-of-us</a> → `artifacts/`
-
-</div>
-
 <!--
 Here is the turn, and it is the whole reason this is a close rather than a warning.
 
@@ -138,7 +129,62 @@ And here is the genuinely hopeful part, which is why this is a close and not a w
 
 Which means this is not a personality test you already passed or failed. It is a choice, made repeatedly, in small moments, and you can build the conditions that make it easier.
 
-That is what the technique from Act 4 actually is, and it is why it is the thing I would most want you to take. It is a method for using this to understand more, rather than to think less. It is written up properly at that link, along with the template. It costs nothing and it is not about programming.
+That is what the technique from Act 4 actually is, and it is why it is the thing I would most want you to take. It is a method for using this to understand more, rather than to think less. It is written up properly — I will put the link on screen in a moment, along with everything else. It costs nothing and it is not about programming.
 
 Thank you. I would rather spend the rest of the time on your questions than on more slides.
+
+Then advance to the appendix and leave it up for the rest of the evening — that is what it is for.
+-->
+
+---
+layout: default
+---
+
+# Take this with you
+
+Everything from tonight, in three links.
+
+**The learning method** — teach me, quiz me, check my answers, then make me write it up.
+Plus the fill-in-the-blanks template. Neither is about programming.
+<a href="https://github.com/base2labs/ai-for-the-rest-of-us/tree/main/artifacts">github.com/base2labs/ai-for-the-rest-of-us</a> → `artifacts/`
+
+**These slides**, including everything I said over the top of them.
+<a href="https://base2labs.github.io/ai-for-the-rest-of-us/">base2labs.github.io/ai-for-the-rest-of-us</a>
+
+**The dashboard from the first five minutes.** Private, but ask me and I'll add you.
+`github.com/base2labs/react-loop-demo`
+
+<!--
+Advance to this during questions and leave it up. People will photograph it.
+
+Two things worth saying out loud rather than letting them read.
+
+The first item is the one I actually care about. It is the method from earlier, written up properly — and it is the only thing here that works for someone who will never write a line of code. If one person in this room tries it on something they are trying to learn, tonight was worth it.
+
+The last one: the demo repo is private, but that is not me being precious. Ask me and I will add you. It is heavily commented and the loop in it is the same twelve lines you saw on the slide, so it is a reasonable thing to read if you want to see one working end to end.
+
+The orchestrator project I mentioned is not on this list because it is not mine to share — it belongs to my employer. That is worth saying plainly if anybody asks.
+-->
+
+---
+layout: default
+class: refs
+---
+
+# Sources
+
+Everything I cited, so you can check me rather than take my word for it.
+
+- **The 17% study** — Anthropic, Jan 2026 · `anthropic.com/research/AI-assistance-coding-skills`
+- **Cognitive debt** — MIT Media Lab, *Your Brain on ChatGPT* · `media.mit.edu/publications/your-brain-on-chatgpt`
+- **39% / 43% / 60%** — GoTo, *2026 Pulse of Work* (2,500 employees) · `goto.com/blog/pulse-of-work-2026`
+- **Volition, the three kinds of people** — David Brooks, *The People Who Will Thrive in the AI Age*, The Atlantic, 28 Jun 2026
+- **Forevergreen and "baffled practicality"** — Chris Sibben, *A Hollow Crown*, Mere Orthodoxy, Apr 2026
+- **The loop itself** — Yao et al., *ReAct*, 2022 · `arxiv.org/abs/2210.03629`
+- **95% of pilots** — MIT NANDA/Media Lab GenAI Divide report, 2025 · **McKinsey** on growth vs efficiency
+
+<!--
+This slide exists because the repo is public and because half of what I said tonight is other people's work. Nobody needs it read aloud — it is here so the claims are checkable and the people who did the research are named.
+
+If anyone asks where to start: Brooks for the argument, Sibben for the story, and the Anthropic study if they want the one finding that changed how I work.
 -->
