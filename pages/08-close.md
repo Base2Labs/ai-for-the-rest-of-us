@@ -1,9 +1,43 @@
 ---
+layout: section
+---
+
+<!-- ACT 7 — CLOSE · ~8 min · 4 slides + divider · no demo -->
+<!-- Divider added deliberately, reversing the Phase 3 "no divider" decision. The act now opens -->
+<!-- on the counterweight, which is a different subject from Act 6's local models — without a -->
+<!-- divider the audience is still reading everything under "On your own machine". -->
+
+# What this does to you
+
+---
 layout: default
 ---
 
-<!-- ACT 7 — CLOSE · 6 min · 3 slides · no demo -->
-<!-- No section divider: this runs straight out of Act 6's counterweight. -->
+# The honest counterweight
+
+- MIT: roughly **95%** of corporate generative-AI pilots deliver no measurable return.
+- The ones that work were aimed at **growth**, not at cutting headcount — 2–3× more likely, per McKinsey.
+- 43% of workers admit shipping AI output they suspected was wrong.
+- The technology is real. Most attempts to apply it are still bad.
+
+<!--
+Before I finish, the slide that stops this being a sales pitch — and it is the honest state of things.
+
+MIT looked at corporate generative-AI pilots and found something like ninety-five percent produced no measurable return. Ninety-five. Everything I have shown you tonight is real and I stand behind all of it, and simultaneously most organisations trying to do this are getting nothing.
+
+That is not a contradiction, and the pattern in the failures is instructive. McKinsey found the organisations getting real value were two to three times more likely to be using it for growth — doing more, doing new things — than for efficiency, meaning doing the same things with fewer people. Aim it at subtraction, get very little. Aim it at expansion, get somewhere.
+
+And one more, which points straight at the close: a survey found forty-three percent of workers admitted shipping AI output they suspected was wrong. Not could not tell was wrong. Suspected was wrong, and shipped it anyway.
+
+That is not a technology failure. That is a people-under-pressure failure, and no better model fixes it.
+
+Hold that number. It is exactly where I want to end.
+-->
+
+---
+layout: default
+---
+
 <!-- ⚠️ ATTRIBUTION IS LOAD-BEARING — public repo. Brooks credited by name and on-slide. -->
 <!-- Verified: David Brooks, "The People Who Will Thrive in the AI Age", The Atlantic, 28 June 2026. -->
 <!-- Brooks' own terms are "cognitive misers" / "mental marathoners" / the medium-need majority. -->

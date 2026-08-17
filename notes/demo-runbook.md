@@ -53,7 +53,7 @@ already spending.
 `d` toggles dark/light if the room is brighter than expected. `o` is the slide
 overview.
 
-**55 slides.** Type a number and press Enter to jump straight to it.
+**56 slides.** Type a number and press Enter to jump straight to it.
 
 | Slide | What |
 |---:|---|
@@ -66,7 +66,8 @@ overview.
 | **44** | 🔴 Act 5 demo — ask the vault |
 | 47 | Learning-loop diagram (agent) — same shape as 40, on purpose |
 | **50** | 🔴 Act 6 demo — Ollama over RDP |
-| 55 | Close, with the artifacts URL on screen |
+| 52 | ▸ "What this does to you" — the close begins |
+| 56 | Close, with the artifacts URL on screen |
 
 ---
 

@@ -2,10 +2,10 @@
 layout: section
 ---
 
-<!-- ACT 6 — LOCAL MODELS + THE FUTURE · 7 min · 4 slides · live demo cap 3:00 -->
+<!-- ACT 6 — LOCAL MODELS · ~6 min · 3 slides · live demo cap 3:00 -->
+<!-- Purely local models now. The counterweight moved to Act 7, where it belongs. -->
 <!-- Directly answers the attendee-requested topics (Ollama, future of tech). -->
 <!-- Open weights is motivated here rather than listed as an attribute back in Act 2. -->
-<!-- Act ends on the counterweight by design — it earns Act 7 the right to make its argument. -->
 
 # On your own machine
 
@@ -71,27 +71,4 @@ More often than people assume. There is a reflex to reach for the most capable m
 The pattern I keep coming back to, from an engineer at AWS who builds these systems: small model does the work, big model reviews it. You spend the expensive judgment only on judging, which is the part that needed it.
 
 And build so you can swap. The specific best model right now will not be the best model in six months. Anyone who has hardwired themselves to one is going to have a bad time — including, and I mean this, in how you personally work. Do not get too attached.
--->
-
----
-
-# The honest counterweight
-
-- MIT: roughly **95%** of corporate generative-AI pilots deliver no measurable return.
-- The ones that work were aimed at **growth**, not at cutting headcount — 2–3× more likely, per McKinsey.
-- 43% of workers admit shipping AI output they suspected was wrong.
-- The technology is real. Most attempts to apply it are still bad.
-
-<!--
-Before I finish, the slide that stops this being a sales pitch — and it is the honest state of things.
-
-MIT looked at corporate generative-AI pilots and found something like ninety-five percent produced no measurable return. Ninety-five. Everything I have shown you tonight is real and I stand behind all of it, and simultaneously most organisations trying to do this are getting nothing.
-
-That is not a contradiction, and the pattern in the failures is instructive. McKinsey found the organisations getting real value were two to three times more likely to be using it for growth — doing more, doing new things — than for efficiency, meaning doing the same things with fewer people. Aim it at subtraction, get very little. Aim it at expansion, get somewhere.
-
-And one more, which points straight at the close: a survey found forty-three percent of workers admitted shipping AI output they suspected was wrong. Not could not tell was wrong. Suspected was wrong, and shipped it anyway.
-
-That is not a technology failure. That is a people-under-pressure failure, and no better model fixes it.
-
-Hold that number. It is exactly where I want to end.
 -->
