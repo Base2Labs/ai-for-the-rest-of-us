@@ -138,32 +138,36 @@ Then advance to the appendix and leave it up for the rest of the evening — tha
 
 ---
 layout: default
+class: refs
 ---
 
 # Take this with you
 
-Everything from tonight, in three links.
+Everything from tonight. **The private ones — just ask and I'll add you.**
 
-**The learning method** — teach me, quiz me, check my answers, then make me write it up.
-Plus the fill-in-the-blanks template. Neither is about programming.
-<a href="https://github.com/base2labs/ai-for-the-rest-of-us/tree/main/artifacts">github.com/base2labs/ai-for-the-rest-of-us</a> → `artifacts/`
+**The learning method** + the fill-in template — *public, and not about programming*
+`github.com/base2labs/ai-for-the-rest-of-us` → `artifacts/`
 
-**These slides**, including everything I said over the top of them.
-<a href="https://base2labs.github.io/ai-for-the-rest-of-us/">base2labs.github.io/ai-for-the-rest-of-us</a>
+**These slides**, with everything I said over the top of them — *public*
+`base2labs.github.io/ai-for-the-rest-of-us`
 
-**The dashboard from the first five minutes.** Private, but ask me and I'll add you.
-`github.com/base2labs/react-loop-demo`
+| Project | Repo |
+|---|---|
+| The dashboard from the first five minutes | `base2labs/react-loop-demo` 🔒 |
+| Math Recall — times tables | `base2labs/math-recall` 🔒 |
+| SafeSpend — what can I actually spend | `base2labs/safespend` 🔒 |
+| RepoX-Ray — how a codebase really gets worked on | `base2labs/RepoX-Ray` 🔒 |
+| Observatory — live 3D view of my servers | `base2labs/k3s-observatory` |
+| Task Picker — what should I do next | `base2labs/obsidian-ai-task-picker` |
 
 <!--
 Advance to this during questions and leave it up. People will photograph it.
 
-Two things worth saying out loud rather than letting them read.
+Say the one line that matters: the padlocked ones are private, but that is not me being precious — ask and I will add you. Nothing on this list is a secret, it is just unfinished.
 
-The first item is the one I actually care about. It is the method from earlier, written up properly — and it is the only thing here that works for someone who will never write a line of code. If one person in this room tries it on something they are trying to learn, tonight was worth it.
+The first item is still the one I actually care about. It is the method from earlier, and it is the only thing here that works for someone who will never write a line of code. If one person in this room tries it on something they are trying to learn, tonight was worth it.
 
-The last one: the demo repo is private, but that is not me being precious. Ask me and I will add you. It is heavily commented and the loop in it is the same twelve lines you saw on the slide, so it is a reasonable thing to read if you want to see one working end to end.
-
-The orchestrator project I mentioned is not on this list because it is not mine to share — it belongs to my employer. That is worth saying plainly if anybody asks.
+⚠️ The orchestrator project is deliberately not on this list — it lives in my employer's GitHub organisation, so it is not mine to share. Say that plainly if anybody asks; it is a better answer than a link nobody can open.
 -->
 
 ---

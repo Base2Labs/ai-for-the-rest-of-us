@@ -56,7 +56,7 @@ already spending.
 `d` toggles dark/light if the room is brighter than expected, `o` is the slide
 overview, and `g` opens a go-to-slide box. (`f` is fullscreen.)
 
-**59 slides.** Type a number and press Enter to jump straight to it.
+**60 slides.** Type a number and press Enter to jump straight to it.
 
 | Slide | What |
 |---:|---|
@@ -67,12 +67,13 @@ overview, and `g` opens a go-to-slide box. (`f` is fullscreen.)
 | **23** | 🔴 Act 3 demo — replay the panel |
 | 40 | Learning-loop diagram (personal) |
 | **44** | 🔴 Act 5 demo — ask the vault |
+| 46 | "The ones I didn't show you" — point back to this in Q&A |
 | 47 | Learning-loop diagram (agent) — same shape as 40, on purpose |
 | **50** | 🔴 Act 6 demo — Ollama over RDP |
 | 52 | ▸ "What this does to you" — the close begins |
-| 57 | Close — "Stretching, not atrophying" |
-| 58 | Appendix — take this with you (leave up during Q&A) |
-| 59 | Appendix — sources |
+| 58 | Close — "Stretching, not atrophying" |
+| 59 | Appendix — take this with you (leave up during Q&A) |
+| 60 | Appendix — sources |
 
 ---
 

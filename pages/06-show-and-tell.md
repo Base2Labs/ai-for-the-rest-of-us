@@ -2,7 +2,7 @@
 layout: section
 ---
 
-<!-- ACT 5 — SHOW AND TELL · 9 min · 6 slides · live demo cap 4:00 -->
+<!-- ACT 5 — SHOW AND TELL · ~10 min · 7 slides · live demo cap 4:00 -->
 <!-- Every slide stands alone — no repo links, nothing to go read afterward. Both projects stay private. -->
 <!-- ⚠️ No triumphalism. Some of this room is worried about their job. -->
 
@@ -121,6 +121,29 @@ The dashboard is the hook. The debug panel is the real product. That panel is wh
 Most tools hide all of that. Reasonable for a product, useless for understanding. And I think the hiding is a large part of why this technology feels like magic to people, and therefore either miraculous or threatening. Very little of that survives watching the machinery for five minutes.
 
 Under it is the same loop from Act 3, written by hand — no framework — and commented heavily, because the loop is the lesson. It is a teaching object. It is not on the internet and there is nothing to click; you have seen the interesting part already, which was the panel.
+-->
+
+---
+
+# The ones I didn't show you
+
+- **Math Recall** — drills times tables. Built because my kids needed one.
+- **SafeSpend** — tells me what I can actually spend this month, from my own budget data.
+- **Observatory** — a live 3D view of the servers running in my house.
+- **RepoX-Ray** — reads a codebase's history and reports how it really gets worked on.
+- **Task Picker** — reads my notes and tells me what to do next.
+- **None of these would have existed five years ago.** Ask me about any of them afterwards.
+
+<!--
+Thirty seconds on this slide, no more. Do not walk through them — the list is the point, not the contents.
+
+The two at the top are the ones for this room. Math Recall exists because my kids needed to drill times tables and the apps I found were bad. SafeSpend exists because I wanted one number — what can I actually spend this month — and nothing gave me it. Neither is clever. Both took an evening or two.
+
+That is the Act 1 argument arriving with receipts. Remember: software used to be worth building only if enough people needed it. Every one of these is worth building for exactly one person with one problem, and that person built it.
+
+Say the last line and mean it: none of these would have existed five years ago. Not because they are hard, but because they were never worth anybody's month.
+
+Then leave it: I will put the links up at the end, and I am happy to talk about any of these afterwards if one of them sounds useful to you. That gives the quiet people in the room something concrete to ask about later, which is usually where the good conversations happen.
 -->
 
 ---
