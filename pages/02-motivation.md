@@ -38,7 +38,7 @@ Quick word on where this comes from, so you know what kind of evidence you are g
 
 For six months I committed to building exclusively through these tools — not touching the code directly. Not a weekend experiment. Real work, real deadlines, real consequences when it went wrong. I did that specifically because the discourse is so loud, and the only way to cut through it is to go all in and find out.
 
-One more thing, and hold onto it. This presentation was itself put together by pointing an agent at two years of my own notes — about eleven hundred of them. It read across old projects, talks I gave and archived, retrospectives, half-finished thoughts, and assembled what you are looking at right now. I will show you exactly how at the end — it is the part most likely to be useful to those of you who do not write software.
+One more thing, and hold onto it. This presentation was itself put together by pointing an agent at two years of my own notes — about eleven hundred of them. (If "agent" is a word you have heard a hundred times without anyone ever explaining it, that is deliberate on my part — I define it properly in about twenty minutes, once you have seen how one actually works. Take it for now as "a program I pointed at my notes.") It read across old projects, talks I gave and archived, retrospectives, half-finished thoughts, and assembled what you are looking at right now. I will show you exactly how at the end — it is the part most likely to be useful to those of you who do not write software.
 -->
 
 ---

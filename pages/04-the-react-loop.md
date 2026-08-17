@@ -2,7 +2,7 @@
 layout: section
 ---
 
-<!-- ACT 3 — THE REACT LOOP · 15 min · 11 slides · live demo cap 3:00 -->
+<!-- ACT 3 — THE REACT LOOP · ~16 min · 12 slides · live demo cap 3:00 -->
 <!-- ⭐ THE SPINE. Largest act. Everything downstream is a consequence of mechanics introduced here. -->
 <!-- Code is texture — narrate it, never walk it line by line. Mixed audience. -->
 
@@ -178,6 +178,30 @@ Which means most "the AI is being stupid" problems are actually design problems.
 
 If you ever build one of these: the tool descriptions are the product. Everyone spends their time on the prompt and then wonders why it keeps picking the wrong thing.
 -->
+
+---
+
+# So that’s what an “agent” is
+
+- You have all heard the word. Almost nobody says what it means.
+- **An agent is a program that runs this loop.** That is the entire definition.
+- A loop, a list of tools, and a goal. Everything else is packaging.
+- So when someone sells you an “AI agent,” the useful question is: **what's on its tool list?**
+
+<!--
+This is the vocabulary slide, and for this room it may be the most useful one in the act.
+
+Nobody outside this field talks about loops. They talk about agents — it is the word in every headline, every product announcement, every post any of you have scrolled past this year. And almost nobody ever says what it means, which leaves people assuming it is something mysterious.
+
+So let me close the gap. An agent is a program that runs the loop you have been looking at for the last ten minutes. That is the whole definition. A loop, a list of tools it is allowed to call, and a goal. Everything else — the branding, the personality, the name somebody gave it — is packaging around those three things.
+
+You already understood agents. You just did not know that was what they were called, because we did the mechanism first and the vocabulary second. That is deliberate — hearing the word first would have left you with a label and no picture.
+
+And it hands you a question worth keeping. When somebody sells you, or your employer, an AI agent, the question is not how clever is it. It is: what is on its tool list, and who decided what goes on it? Something that can only read is safe. Something that can send email on your behalf is an entirely different proposition, and it is the same technology.
+
+That is also the answer to "how do you let one of these loose safely" — and you now know enough to ask it.
+-->
+
 
 ---
 
