@@ -96,8 +96,9 @@ So the real risk is not that there is nothing left for you to do. It is what hap
 
 - The people building software increasingly **aren't software people**.
 - One assistant got **four hours a day** back — meeting minutes, done better than by hand.
-- Paramedics, teachers, restaurant owners — building the tool they always wanted and could never justify hiring for.
-- The story isn't how software gets built. It's ***what*** gets built, and ***who*** builds it.
+- Paramedics, teachers, restaurant owners — building their own tools.
+- Software used to be worth building only if **enough people** needed it.
+- Now it's worth building for **one person with one problem** — and that person can build it.
 
 <!--
 Last one in this act, and it is the reason any of this is worth your evening rather than just mine.
@@ -108,7 +109,13 @@ Then give them the one that lands. An assistant had meeting minutes automated an
 
 The others are the range, not the argument. Paramedics, teachers, restaurant owners — domain experts building the specific thing they always wanted and could never justify hiring someone to make. Swap any of these for a job somebody in the room actually does; the closer it lands to the people in front of you, the better it works. None of it is programming. All of it is somebody noticing an annoyance in their own working life and being able to do something about it, without a budget or a department.
 
-Then the turn, and say it as the thesis of the act. The story is not how software gets built. It is what gets built, and who gets to build it.
+Then the turn, and this is the thesis of the whole act — say it slowly.
+
+Software used to have a minimum size to be worth making. Someone had to want it badly enough to pay a developer for months, which meant your problem only got solved if enough other people shared it. Below that bar you just coped — with a spreadsheet, with a notebook, with doing it by hand.
+
+That bar has collapsed. It is now worth building something for one person with one problem, because it costs an afternoon instead of a salary. And the person who builds it is increasingly the person who has the problem.
+
+Tie it straight back to the examples above: none of those people were ever going to get a developer funded for their specific annoyance. That is what changed.
 
 And be honest about the limit: I cannot tell you what that looks like in your field. You know your field and I do not. What I can do is show you the machine underneath it, so you can work out where it fits — and that starts now.
 -->
