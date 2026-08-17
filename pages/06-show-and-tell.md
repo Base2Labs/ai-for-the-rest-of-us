@@ -138,18 +138,18 @@ class: refs
 - **Agent Orchestrator** — agents that pick up a ticket and open a pull request, unattended.
 - **Homelab GitOps** — the servers in my house, defined as code so I can rebuild them from scratch.
 
-**None of these would have existed five years ago.** Ask me about any of them afterwards.
+**Every one of these was built in the last twelve months.** Ask me about any of them afterwards.
 
 <!--
 Thirty seconds. Do not walk through them — the length of the list is the point, not the contents.
 
-The top two are the ones for this room. Math Recall exists because my kids needed to drill times tables and the apps I found were bad. SafeSpend exists because I wanted one number — what can I actually spend this month — and nothing would give me it. Neither is clever. Both took an evening or two.
+The top two are the ones for this room. Math Recall exists because my kids needed to drill times tables and the apps I found were bad. SafeSpend exists because I wanted one number — what can I actually spend this month — and nothing would give me it. Neither is clever. SafeSpend really was a weekend — almost all of it went in over two days in May. Math Recall was slower and I should say so: a few evenings over the holidays, one long weekend in January where most of it happened, then picking at it until March. If anyone asks, give them the real answer. It is a better story than "an evening" anyway — it is what building something for one person actually looks like.
 
 That is the Act 1 argument arriving with receipts. Software used to be worth building only if enough people needed it; every one of these is worth building for exactly one person with one problem, and that person built it.
 
 The bottom two are the other end of the range — an orchestrator that runs agents unattended and opens pull requests, and the homelab defined entirely as code. Same tools, wildly different scale. Do not go into either unless somebody asks.
 
-Then land the last line and mean it: none of these would have existed five years ago. Not because they are hard, but because they were never worth anybody's month.
+Then land the last line and mean it: every one of these was built in the last twelve months. The oldest is RepoX-Ray, almost exactly a year ago; the newest is SafeSpend, in May. Not because they are hard, but because until recently they were never worth anybody's month — and the date is the proof, not a hypothetical about some earlier era.
 
 And leave the invitation open — links are at the end, happy to talk about any of them afterwards. That gives the quieter people something concrete to come and ask about, which is usually where the good conversations happen.
 -->
