@@ -31,18 +31,20 @@ At 5:00 you stop, mid-flow if necessary.
 -->
 
 ---
+layout: center
+class: text-center
+---
 
 # What just happened?
 
-- No, really. What did you just watch?
-- We are not going to answer that for another half hour.
-
 <!--
-Now stop, and let it be awkward for a moment.
+Title only, on purpose. This slide is a beat, not a list — the question on screen is the whole content, and anything else would be you reading stage directions aloud.
 
-Ask it straight: what did you just watch happen? Take one or two answers from the room if they come, but do not correct them and do not confirm anything. Wrong answers are useful — they are what makes the reveal land later.
+Stop here and let it be awkward for a moment. Ask the room straight: what did you just watch happen?
 
-Then close it off honestly: I am not going to tell you yet. There are two things you need first, and then I am going to replay that exact panel and take it apart line by line.
+Take one or two answers if they come. Do not correct them and do not confirm anything — wrong answers are useful, because they are what makes the reveal land in Act 3.
 
-That is a promise, and Act 3 is where you keep it. Everything between here and there is the setup that makes the answer mean something.
+Then close it off honestly: I am not going to tell you yet. There are two things you need first, and then I will replay that exact panel and take it apart line by line.
+
+That is a promise. Act 3 is where you keep it, and everything between here and there is the setup that makes the answer mean something.
 -->
