@@ -202,18 +202,21 @@ And it hands you a question worth keeping. When somebody sells you, or your empl
 That is also the answer to "how do you let one of these loose safely" — and you now know enough to ask it.
 -->
 
-
+---
+layout: center
+class: text-center
 ---
 
 # Watch it decide
 
-- Same demo. Same panel. This time you know what you're looking at.
-- One deliberately ambiguous request — and watch it *refuse to guess*.
-
 <!--
 🔴 LIVE — react-loop-demo · HARD CAP 3:00
 
-Same app, panel open, but now narrate against the vocabulary they have. Point at the actual words as they scroll: there is the request, there is the tool call, there is the result coming back, and now round again.
+Title only, on purpose. Both former bullets were stage directions: "same demo, same panel, now you know what you're looking at" is you narrating your own slide, and flagging the ambiguous request in advance spoils the moment where it stops and asks.
+
+Say the framing out loud instead — same app, same panel, but this time you know what every line means.
+
+Panel open, and now narrate against the vocabulary they have. Point at the actual words as they scroll: there is the request, there is the tool call, there is the result coming back, and now round again.
 
 Then the ambiguous prompt: "show my checking balance." Two checking accounts exist.
 
