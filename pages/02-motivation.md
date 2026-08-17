@@ -94,19 +94,21 @@ So the real risk is not that there is nothing left for you to do. It is what hap
 
 # This already left software
 
-- Paramedics, glaciologists, kayakers, restaurant operators, sales leaders — building their own tools.
-- A bot that phones restaurants, books the table, handles the invite, declares the allergies.
-- Product photography without the photoshoot. Meeting minutes returning **four hours a day** to one assistant.
-- The story isn't how software gets built. It's *what* gets built, and *who* builds it.
+- The people building software increasingly **aren't software people**.
+- One assistant got **four hours a day** back — meeting minutes, done better than by hand.
+- Paramedics, glaciologists, restaurant operators — building the tool they always wanted and could never justify hiring for.
+- The story isn't how software gets built. It's ***what*** gets built, and ***who*** builds it.
 
 <!--
-Last one in this act, and it is the reason any of this is worth your time rather than just mine.
+Last one in this act, and it is the reason any of this is worth your evening rather than just mine.
 
-The people building software now increasingly are not software people. Paramedics, glaciologists, kayakers, restaurant operators, sales leaders — domain experts building the thing they always wanted and could never justify hiring someone to make. That is the actual shift. Not how software gets built. What gets built, and who gets to build it.
+Lead with the claim, because everything up to now has been about my industry and this is the turn. The people building software increasingly are not software people.
 
-Three quick concrete ones. Somebody built a bot that phones restaurants to book a table — it handles the calendar invite and declares the allergies. A company replaced expensive product photoshoots with generated photography. And an assistant got four hours a day back when meeting minutes were automated, with better accuracy than by hand.
+Then give them the one that lands. An assistant had meeting minutes automated and got four hours a day back — half a working day, every day, and the minutes came out more accurate than the hand-written ones. Let that sit for a second. That is not a programmer's story and it is not a productivity statistic; it is a person getting half their day returned.
 
-None of that is programming. All of it is somebody noticing a specific annoyance in their own working life and being able to do something about it, without a budget or a department.
+The others are the range, not the argument. Paramedics, glaciologists, restaurant operators — domain experts building the specific thing they always wanted and could never justify hiring someone to make. None of it is programming. All of it is somebody noticing an annoyance in their own working life and being able to do something about it, without a budget or a department.
 
-I cannot tell you what that looks like in your field. Genuinely — you know your field and I do not. What I can do is show you the machine underneath it, so you can work out where it fits. That starts now.
+Then the turn, and say it as the thesis of the act. The story is not how software gets built. It is what gets built, and who gets to build it.
+
+And be honest about the limit: I cannot tell you what that looks like in your field. You know your field and I do not. What I can do is show you the machine underneath it, so you can work out where it fits — and that starts now.
 -->
