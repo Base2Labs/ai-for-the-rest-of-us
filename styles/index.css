@@ -1,20 +1,21 @@
-/* Projector legibility pass — Phase 5.
-   Assumptions: a bright room, a screen share or a mediocre projector, and people
-   at the back. So: system fonts (nothing fetched at build or view time), high
-   contrast, and type sized well above web defaults. */
+/* Projector legibility pass — Phase 5, revised.
+   Assumptions: a screen share or a mediocre projector, and people at the back.
+   So: system fonts (nothing fetched at build or view time) and type sized well
+   above web defaults.
+
+   Deliberately NO colour declarations. The theme owns light/dark so the `d`
+   toggle and the viewer's system preference both keep working — an earlier
+   version hardcoded a white background and forced the whole deck light. */
 
 .slidev-layout {
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
-  color: #14181f;
-  background: #fff;
 }
 
 .slidev-layout h1 {
   font-size: 2.5rem;
   line-height: 1.15;
   font-weight: 700;
-  color: #0f172a;
   margin-bottom: 1rem;
   letter-spacing: -0.015em;
 }
@@ -22,7 +23,6 @@
 .slidev-layout h2 {
   font-size: 1.75rem;
   font-weight: 650;
-  color: #0f172a;
 }
 
 .slidev-layout ul > li {
@@ -39,7 +39,6 @@
 /* Bold carries the point on nearly every slide — make it actually read as bold. */
 .slidev-layout strong {
   font-weight: 700;
-  color: #0f172a;
 }
 
 /* Code is texture, narrated rather than read — but it still has to be visible

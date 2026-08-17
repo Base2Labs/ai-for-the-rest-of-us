@@ -40,7 +40,7 @@ layoutClass: gap-12
 
 ::right::
 
-```mermaid {theme: 'neutral', scale: 0.68}
+```mermaid {scale: 0.68}
 flowchart TD
     A["Agent program<br/>ordinary code"]
     M["Model<br/>reasons"]

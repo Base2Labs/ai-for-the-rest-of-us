@@ -128,7 +128,7 @@ layoutClass: gap-12
 
 ::right::
 
-```mermaid {theme: 'neutral', scale: 0.66}
+```mermaid {scale: 0.66}
 flowchart TD
     D["Do the work"]
     R["Reflect on what<br/>was learned"]

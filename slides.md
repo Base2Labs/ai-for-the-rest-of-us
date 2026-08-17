@@ -7,7 +7,7 @@ info: |
 class: text-center
 transition: slide-left
 mdc: true
-colorSchema: light
+colorSchema: auto
 lineNumbers: false
 drawings:
   persist: false

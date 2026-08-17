@@ -196,7 +196,7 @@ layoutClass: gap-12
 
 ::right::
 
-```mermaid {theme: 'neutral', scale: 0.66}
+```mermaid {scale: 0.66}
 flowchart TD
     T["Teach me<br/>the next topic"]
     Q["Quiz me —<br/>and check<br/>my answers"]
