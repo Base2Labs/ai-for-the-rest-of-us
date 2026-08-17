@@ -41,17 +41,20 @@ this runbook has now been verified rather than assumed.
 
 ## Screen sharing
 
-Open **two windows**: the deck, and the presenter view at `/presenter/`. Share
-the **deck window specifically — never the whole screen or desktop**, or the
-room sees your notes. On HDMI, use extended display rather than mirroring.
+Open **two windows**: the deck at `http://localhost:3030`, and the presenter view
+at `http://localhost:3030/presenter`. **There is no keyboard shortcut for presenter
+mode** — type the URL, or click the button in the toolbar that appears when you
+hover bottom-left. Share the **deck window specifically — never the whole screen
+or desktop**, or the room sees your notes. On HDMI, use extended display rather
+than mirroring.
 
 Present from `npm run dev` locally rather than from GitHub Pages. Sync between
 the presenter view and the deck is only reliable on the dev server, and running
 locally means the slides do not depend on the network — which the demos are
 already spending.
 
-`d` toggles dark/light if the room is brighter than expected. `o` is the slide
-overview.
+`d` toggles dark/light if the room is brighter than expected, `o` is the slide
+overview, and `g` opens a go-to-slide box. (`f` is fullscreen.)
 
 **56 slides.** Type a number and press Enter to jump straight to it.
 

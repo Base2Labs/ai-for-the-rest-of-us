@@ -4,7 +4,7 @@ A talk on what changed with AI-assisted work, how the agent loop actually works,
 
 **📊 [Read the deck →](https://base2labs.github.io/ai-for-the-rest-of-us/)**
 
-Press `o` for a grid of all the slides, `p` for presenter mode with the speaker notes, and `d` to switch between light and dark.
+Press `o` for a grid of all the slides, `d` to switch between light and dark, and `g` to jump to a slide number. Speaker notes live in presenter mode at [`/presenter`](https://base2labs.github.io/ai-for-the-rest-of-us/presenter) — there is no keyboard shortcut for it; use the URL or the button in the toolbar.
 
 Deck source is split per act under `pages/`, imported by `slides.md` via Slidev's `src:` includes so each act can be edited independently.
 
