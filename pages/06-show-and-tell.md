@@ -82,6 +82,7 @@ Four minutes. Stop when it is up.
 - Explain it again. And again. Every conversation, every tool, forever.
 - Call it the **context repetition tax** — small each time, enormous in aggregate.
 - Pay it daily, or pay it once by writing things down.
+- **Skills, agent definitions, brain files, my notes — every one of them is the same move.**
 
 <!--
 Here is the flip side of the memory wall, in terms that apply to everybody.
@@ -92,7 +93,13 @@ Someone gave that a name — the context repetition tax. Trivial each time, enor
 
 You pay it in one of two ways. Daily, in small instalments, forever. Or once, by writing the thing down somewhere it can be read again.
 
-And note this is exactly what all those improvised workarounds from the memory wall slide were doing — brain files, memory servers, knowledge graphs. They are all just writing it down. The industry converged on the same answer your grandmother would have given you.
+Now pull the whole evening together, because this is the second spine of the talk and it has been running underneath everything.
+
+The skills and agent definitions from the last act? That is this. The elaborate workarounds from the memory wall — fifty markdown brain files, memory servers, knowledge graphs? That is this. The learning technique where you cannot advance until the document exists? That is this. My notes, which is what you are looking at? Also this.
+
+Every one of them is somebody paying the tax once instead of daily. The industry spent two years and a great deal of money converging on the same answer your grandmother would have given you: write it down.
+
+That is worth saying plainly, because it is the one piece of advice in this talk that needs no technology at all and does not expire when the models change.
 
 Keep it in plain text, keep it in pieces rather than one enormous document, and keep it current. That is genuinely the whole method.
 -->
