@@ -57,25 +57,27 @@ Remember the seventeen percent from earlier — that is the same finding from a 
 
 ---
 
-# "AI could have done that in five minutes"
+# "AI could have done it in five minutes"
 
-- A head teacher shows his students a film. Two hundred artists. Five years.
-- The students are baffled. *Why would anyone do that?*
-- Nobody in that room was wrong about the facts. It **could** have been done in five minutes.
-- That's the whole question, and it isn't a technical one.
+- ***Forevergreen*** — an Oscar-nominated animated short. **200+ artists. Five years. Donated free time.**
+- A head teacher showed it to his class. One boy's response: *"AI could have done it in five minutes."*
+- Not a sneer. The teacher's words: **"baffled practicality."** He genuinely couldn't see the point.
+- Nobody in that room was wrong about the facts. That's what makes it worth worrying about.
 
 <!--
 So that is the cost, measured. Now what it looks like when the bill comes due — because a number does not frighten anybody, and a story might.
 
-Chris Sibben runs a small school in Virginia. He showed his students a film that took more than two hundred artists over five years to make — and the students were baffled by it. Not by the film. By the effort. Why would anyone spend five years on something a machine could produce in an afternoon?
+⚠️ ATTRIBUTION: this story is Chris Sibben's, head of school at Rivendell in Northern Virginia, from his essay "A Hollow Crown: AI and the Formation of Students" (Mere Orthodoxy, April 2026). It is NOT Brooks' — Brooks is the next slide. Do not merge them.
 
-Sit with how reasonable that question is. They were not being lazy or philistine. They were right on the facts. It could have been done in five minutes.
+Forevergreen is a real film and the details matter, so use them. Animated short, nominated at this year's Academy Awards, made by more than two hundred artists and technicians over five years — and here is the part to land — they donated their own free time to it. Nobody was paid. Two Disney artists started it and two hundred people gave up their evenings for five years to help finish it.
 
-But something has gone missing in the asking, and I do not think it is about films. If the only thing that matters about a piece of work is the artefact at the end, then yes — always take the five minutes. If something also happens to the people who spent the five years, then the question is incomplete, and we have just built the most powerful tool ever made for skipping that part.
+Sibben showed it to his seventh and eighth graders. One boy said: AI could have done it in five minutes.
 
-Notice what those students had lost. Not a skill — they could presumably still write, still draw. What had gone was the ability to see why the effort was worth anything. That is what cognitive debt looks like when it is fully paid off, and it is a bleaker thing than being bad at something.
+Now, the easy move is to be appalled at that child, and it is the wrong move. Sibben is precise about this and it is why the story is worth telling — it came, in his words, "not as flippant dismissal but as baffled practicality." The boy was not sneering. He genuinely could not work out why anyone would do that. He was asking a reasonable question and he had no answer available to him.
 
-This is from David Brooks, writing in The Atlantic in June, and the rest of this comes from him too.
+And he was right on the facts. Something that looks like that film can now be produced in an afternoon. If the only thing that matters is the artefact at the end, the boy's question has no answer.
+
+The thing he could not see is that something happened to those two hundred people over those five years, and it was not incidental — for a lot of them it was probably the point. That is what is at risk. Not the ability to make things. The ability to see why making them mattered.
 -->
 
 ---
