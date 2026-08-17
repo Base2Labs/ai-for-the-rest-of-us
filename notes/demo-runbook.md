@@ -51,7 +51,21 @@ locally means the slides do not depend on the network — which the demos are
 already spending.
 
 `d` toggles dark/light if the room is brighter than expected. `o` is the slide
-overview. The deck is 52 slides; the diagrams are 16, 37 and 44.
+overview.
+
+**53 slides.** Type a number and press Enter to jump straight to it.
+
+| Slide | What |
+|---:|---|
+| **2** | 🔴 Act 0 demo — talk a dashboard into existence |
+| 3 | "What just happened?" — the beat, then Act 1 |
+| 16 | ReAct loop diagram |
+| **22** | 🔴 Act 3 demo — replay the panel |
+| 38 | Learning-loop diagram (personal) |
+| **42** | 🔴 Act 5 demo — ask the vault |
+| 45 | Learning-loop diagram (agent) — same shape as 38, on purpose |
+| **48** | 🔴 Act 6 demo — Ollama over RDP |
+| 53 | Close, with the artifacts URL on screen |
 
 ---
 
