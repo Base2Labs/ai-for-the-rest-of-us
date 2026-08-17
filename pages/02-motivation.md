@@ -96,7 +96,7 @@ So the real risk is not that there is nothing left for you to do. It is what hap
 
 - The people building software increasingly **aren't software people**.
 - One assistant got **four hours a day** back — meeting minutes, done better than by hand.
-- Paramedics, glaciologists, restaurant operators — building the tool they always wanted and could never justify hiring for.
+- Paramedics, teachers, restaurant owners — building the tool they always wanted and could never justify hiring for.
 - The story isn't how software gets built. It's ***what*** gets built, and ***who*** builds it.
 
 <!--
@@ -106,7 +106,7 @@ Lead with the claim, because everything up to now has been about my industry and
 
 Then give them the one that lands. An assistant had meeting minutes automated and got four hours a day back — half a working day, every day, and the minutes came out more accurate than the hand-written ones. Let that sit for a second. That is not a programmer's story and it is not a productivity statistic; it is a person getting half their day returned.
 
-The others are the range, not the argument. Paramedics, glaciologists, restaurant operators — domain experts building the specific thing they always wanted and could never justify hiring someone to make. None of it is programming. All of it is somebody noticing an annoyance in their own working life and being able to do something about it, without a budget or a department.
+The others are the range, not the argument. Paramedics, teachers, restaurant owners — domain experts building the specific thing they always wanted and could never justify hiring someone to make. Swap any of these for a job somebody in the room actually does; the closer it lands to the people in front of you, the better it works. None of it is programming. All of it is somebody noticing an annoyance in their own working life and being able to do something about it, without a budget or a department.
 
 Then the turn, and say it as the thesis of the act. The story is not how software gets built. It is what gets built, and who gets to build it.
 
