@@ -75,7 +75,9 @@ class: text-center
 
 <div class="mt-8 text-xl">
 
-**The method, free:** `github.com/base2labs/ai-for-the-rest-of-us` → `artifacts/`
+**The method, free — and not about programming:**
+
+<a href="https://github.com/base2labs/ai-for-the-rest-of-us/tree/main/artifacts">github.com/base2labs/ai-for-the-rest-of-us</a> → `artifacts/`
 
 </div>
 

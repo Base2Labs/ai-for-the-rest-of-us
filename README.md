@@ -17,10 +17,14 @@ notes/demo-runbook.md
 
 ## Artifacts
 
-The deck has no project links in it, so these are the only things the audience leaves with:
+**Start here if you came for the thing you were promised at the end of the talk.**
 
-- [`artifacts/primer-roadmap-template.md`](./artifacts/primer-roadmap-template.md) — a generic template for a roadmap-driven learning session with an agent.
-- [`artifacts/meta-learning-technique.md`](./artifacts/meta-learning-technique.md) — the technique itself, written as explicit steps.
+The deck carries no project links, so [`artifacts/`](./artifacts/) is what there is — a method for using an AI to understand something rather than to avoid understanding it. Neither file assumes you attended, and neither is about programming.
+
+- [`artifacts/meta-learning-technique.md`](./artifacts/meta-learning-technique.md) — the method, and why it is shaped the way it is. Read this first.
+- [`artifacts/primer-roadmap-template.md`](./artifacts/primer-roadmap-template.md) — the file you copy. Fill in the blanks, hand it to an assistant, say `begin`.
+
+The short version: most people ask an AI to write a summary and then read it, which produces a document and very little understanding. This does the reverse — you get taught in conversation, quizzed with your answers actually checked, and the write-up comes last, as a byproduct. Advancing is gated on that write-up, so the step that produces the learning is the one you cannot skip.
 
 ## Local development
 

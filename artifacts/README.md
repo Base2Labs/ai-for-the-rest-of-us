@@ -1,8 +1,26 @@
 # Artifacts
 
-The audience's only takeaway — no project links go in this deck, so these two files are what attendees leave with.
+Two files, free to take and change. They are the practical residue of the talk —
+the deck deliberately carries no project links, so this is what there is.
 
-- `primer-roadmap-template.md` — generic version of the meta-learning technique's roadmap file. Added in Phase 6.
-- `meta-learning-technique.md` — the technique itself, written as explicit steps. Added in Phase 6.
+Neither assumes you attended, and neither is about programming.
 
-Both are linked from the repo README and the closing slide.
+**[`meta-learning-technique.md`](./meta-learning-technique.md)** — a method for
+using an AI to understand something rather than to avoid understanding it. Read
+this one first; it explains why the method is shaped the way it is, which matters
+because the shape is easy to break by accident.
+
+**[`primer-roadmap-template.md`](./primer-roadmap-template.md)** — the file you
+actually copy. Fill in the blanks, hand it to an assistant, say `begin`.
+
+## The short version
+
+Most people ask an AI to write a summary and then read the summary. That
+produces a document and very little understanding, because reading a good
+explanation is not what makes you understand something — writing one is.
+
+This does the reverse. The assistant teaches you in conversation, quizzes you
+and checks your answers, and only then writes the document, capturing the
+questions *you* actually asked along the way. Advancing to the next topic is
+gated on that write-up existing, so the step that produces the learning is the
+one step you cannot quietly skip when you are in a hurry.
