@@ -43,7 +43,7 @@ Trade-offs are honest and simple. The rented ones are generally more capable, es
 
 ⚠️ Do NOT claim to be offline. The RDP session needs the network, so "watch me pull the wifi" is not available and would be a lie. The honest claim is ownership, not disconnection.
 
-Say where you are: this is a desktop in my house, and I am looking at its screen from here. The model on it is a file I downloaded — a few gigabytes of numbers — and it is doing the work on that machine, not in anybody's data centre.
+Say where you are: this is a desktop in my house, and I am looking at its screen from here. The model on it is a file I downloaded — seventeen gigabytes, about twenty-six billion numbers — and it is doing the work on that machine, not in anybody's data centre. Say the size out loud; it makes "a file you download" concrete in a way that "a local model" never does.
 
 Ask it something ordinary. Let it be slower than the room expects and do not apologise for the wait; a machine in a spare room doing this at all is the point.
 

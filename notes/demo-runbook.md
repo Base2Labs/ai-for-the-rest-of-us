@@ -14,12 +14,28 @@ Every cap below is hard. When it is up you stop, mid-sentence if necessary. The
 | 5 — Show and tell | Point an agent at the vault | laptop, local | **4:00** |
 | 6 — Local models | Ollama on the Windows box | RDP to Windows | **3:00** |
 
-## FILL IN before the day
+## The setup
 
-- Dashboard app URL: `FILL IN`
-- Windows box hostname / IP for RDP: `FILL IN`
-- Ollama model to use: `FILL IN` — pull it well in advance, it is gigabytes
-- **The vault query (Act 5): `FILL IN`** — see that section; this one is not optional
+Nothing runs on the laptop. Two of the four demos are elsewhere on the network.
+
+| What | Where | Notes |
+|---|---|---|
+| Dashboard app | <https://reactloop.basetwolabs.com> | Public, behind Cloudflare. **HTTP Basic auth.** |
+| Windows box | `10.1.1.239` over RDP | LAN address — reached via the **Tailscale subnet route** |
+| Local model | `gemma4:26b` | 25.8B params, **~17 GB**. `llama3.2` (~1.9 GB) is on the box as a fallback |
+| Vault | local to the laptop | **query still to be chosen — see Act 5** |
+
+**Still outstanding: the vault query.** It is the one thing here that cannot be
+looked up, and Act 5 does not work without it.
+
+### Measured, not guessed
+
+- `gemma4:26b` **cold load: ~21s.** Warm: **0.5s**, then ~38 tokens/sec.
+  Twenty-one seconds is 12% of the 3:00 cap spent watching nothing — this is why
+  warming the model is a pre-flight step and not a nicety.
+- The dashboard app returns **401 until authenticated**. Basic auth, so no SSO
+  redirect or one-time code to fight — but the browser will throw a credentials
+  dialog if the session is not already established.
 
 ---
 
@@ -43,20 +59,26 @@ overview. The deck is 52 slides; the diagrams are 16, 37 and 44.
 
 **The week before**
 
-- Pull the Ollama model onto the Windows box. Run it once so it works.
-- Confirm the dashboard app is deployed and reachable, with a working key behind it.
-- Decide and rehearse the vault query.
+- Confirm `gemma4:26b` still answers on the Windows box: `curl http://10.1.1.239:11434/api/tags`
+- Confirm <https://reactloop.basetwolabs.com> loads and you have the Basic auth credentials to hand.
+- **Decide and rehearse the vault query.** Everything else here is checkable in a minute; this is not.
 
 **Thirty minutes before**
 
-- Dashboard app open in a tab, loaded, with one throwaway prompt already run so
-  the first cold request is not happening in front of people.
-- **RDP session to the Windows box established and left open.** Do not plan to
+- **Tailscale up on the presenting machine, and the `10.1.1.0/24` route actually
+  accepted.** Run `tailscale status`. A client can report connected while
+  silently not taking the subnet route, and that failure looks exactly like the
+  Windows box being down.
+- **Dashboard app open and already authenticated**, in the exact window you will
+  present from. Run one throwaway prompt so the first request is not cold in
+  front of people. Do **not** open a fresh or private window during the talk —
+  it will prompt for credentials on screen, and autofill in front of a room is
+  how a password ends up on a projector.
+- **RDP session to `10.1.1.239` established and left open.** Do not plan to
   connect during the talk. Disable sleep and screen lock on that machine, and set
   its display scaling large enough to read from the back of the room.
-- Ollama already answering on that box — run one query so the model is loaded into
-  memory. A cold model load in front of an audience will blow the 3:00 cap on its
-  own.
+- **Warm the model** — send one query so `gemma4:26b` is resident. Cold it costs
+  ~21 seconds of a 180-second cap; warm it starts in half a second.
 - Agent open in the vault directory, at the right folder, with any private notes
   you do not want on screen closed.
 - Deck running locally, presenter view open, timer visible.
@@ -150,8 +172,10 @@ me pull the wifi" is not available and would be a lie. The slide was rewritten
 for this: the claim is **ownership, not disconnection**.
 
 Say where you are — this is a desktop in my house, and I am looking at its screen
-from here. The model on it is a file I downloaded, and it is doing the work on
-that machine, not in anybody's data centre.
+from here. The model on it is a file I downloaded — **seventeen gigabytes, about
+twenty-six billion numbers** — and it is doing the work on that machine, not in
+anybody's data centre. The size is worth saying out loud; it makes "a file you
+download" concrete in a way that "a local model" never does.
 
 Ask it something ordinary. Let it be slower than the room expects and **do not
 apologise for the wait** — a machine in a spare room doing this at all is the
@@ -162,13 +186,20 @@ confidential — medical, financial, legal, family — that is the whole case, a
 does not require trusting anyone's privacy policy. It also cannot be discontinued,
 price-raised, or quietly changed, which is a different kind of safety from privacy.
 
-**Do not oversell the quality.** It is visibly weaker than the frontier models,
-and pretending otherwise costs credibility — the next slide depends on you having
-been honest about it.
+**Be accurate about the quality — this was tested.** At 26B it answers an ordinary
+question about as well as a frontier model would, so do **not** claim it looks
+visibly weaker; on this kind of question it doesn't, and the room can see that.
+The honest line is that the gap opens on genuinely hard reasoning, not on
+everyday questions — which is exactly what sets up the next slide.
 
 **If RDP has dropped or the box has slept:** do not reconnect live. Skip to the
 next slide and make the argument verbally; it is a four-slide act and the other
 three carry it.
+
+**If the model is crawling:** `llama3.2` is on the same box at ~1.9 GB and will
+answer far faster. Weaker, but "two gigabytes, on a desktop in my house" is the
+same argument at a smaller number — and a fast weak answer beats a slow one you
+have to apologise for.
 
 **Exit line:** "Weaker than the big ones, and for some jobs that's fine — which is
 the next slide."
