@@ -23,10 +23,10 @@ Nothing runs on the laptop. Two of the four demos are elsewhere on the network.
 | Dashboard app | <https://reactloop.basetwolabs.com> | Public, behind Cloudflare. **HTTP Basic auth.** |
 | Windows box | `10.1.1.239` over RDP | LAN address — reached via the **Tailscale subnet route** |
 | Local model | `gemma4:26b` | 25.8B params, **~17 GB**. `llama3.2` (~1.9 GB) is on the box as a fallback |
-| Vault | local to the laptop | **query still to be chosen — see Act 5** |
+| Vault | `~/Vaults/Work/2 Areas/AI` | 11 notes, ~5.8k words. **Scoped deliberately — see Act 5** |
 
-**Still outstanding: the vault query.** It is the one thing here that cannot be
-looked up, and Act 5 does not work without it.
+**The vault query is chosen and tested** — see the Act 5 section. Everything in
+this runbook has now been verified rather than assumed.
 
 ### Measured, not guessed
 
@@ -75,7 +75,7 @@ overview.
 
 - Confirm `gemma4:26b` still answers on the Windows box: `curl http://10.1.1.239:11434/api/tags`
 - Confirm <https://reactloop.basetwolabs.com> loads and you have the Basic auth credentials to hand.
-- **Decide and rehearse the vault query.** Everything else here is checkable in a minute; this is not.
+- Confirm the LangGraph notes are still in `~/Vaults/Work/2 Areas/AI` and the roadmap status table still shows unfinished topics — the query's answer depends on it.
 
 **Thirty minutes before**
 
@@ -93,8 +93,7 @@ overview.
   its display scaling large enough to read from the back of the room.
 - **Warm the model** — send one query so `gemma4:26b` is resident. Cold it costs
   ~21 seconds of a 180-second cap; warm it starts in half a second.
-- Agent open in the vault directory, at the right folder, with any private notes
-  you do not want on screen closed.
+- **Agent open in `~/Vaults/Work/2 Areas/AI`** — check the path on screen before you start. Opening it a level up is the one mistake that puts private material in front of the room.
 - Deck running locally, presenter view open, timer visible.
 
 **Two minutes before**
@@ -156,28 +155,55 @@ more honest talk than one where the demo always works.
 
 ## Act 5 — Ask the vault · cap 4:00
 
-⚠️ **The query is chosen and rehearsed in advance.** The vault holds work
-material and personal notes. Do not free-range, and **do not take a suggested
-query from the room** — say plainly that there is private material in here and
-that is exactly why the query is prepared. That refusal is itself a good moment:
-it demonstrates the judgment the talk is arguing for.
+**Open the agent in `~/Vaults/Work/2 Areas/AI` — not the vault root.** This is a
+hard requirement, not a preference. See "why this folder" below.
 
-Pick a query that reads across *several* notes rather than retrieving one, so the
-demo shows synthesis rather than search. Something spanning years is ideal,
-because the point is reading more at once than a person can hold.
+**The query:**
 
-Show the shape: it searches, reads a few files, follows a reference into another
-note, and answers with citations back to where it found things. Point at the loop
-while it runs — that is a tool call, that is an observation, the same twelve lines
-from Act 3 pointed at a folder of text files.
+> *Read across my LangGraph notes — what did I actually learn, where did I stop,
+> and what did I get stuck on along the way?*
 
-**The beat to land:** it is not doing anything clever. It is reading, quickly,
-across more material than I can hold in my head. The intelligence is ordinary.
-The corpus is what is rare.
+Tested end to end: **~90 seconds**, comfortably inside the cap.
+
+It has to read the roadmap plus six topic documents to answer, so it is genuine
+synthesis rather than retrieval. The answer is concrete and checkable — six
+topics covered, four never started, and the sticking points are recorded in the
+documents themselves.
+
+**The beat to land, and it is the best one in the act:** those documents were
+produced *by the technique from twenty minutes ago*. Act 4 taught the method;
+this is an agent reading the artefacts that method created. The demo proves the
+technique works and demonstrates documentation-as-context in the same move.
+
+Point at the loop while it runs — that is a tool call, that is an observation,
+the same twelve lines from Act 3 aimed at a folder of text files.
+
+**It is not doing anything clever.** It is reading, quickly, across more material
+than I can hold in my head. The intelligence is ordinary. The corpus is what is
+rare.
 
 **Exit line:** "None of that was written for an AI. That's the whole point."
 
----
+### Why this folder, and why not the obvious ones
+
+⚠️ **Do not point this at the vault root, and do not take a query from the room.**
+Say plainly that there is private material in here and that is exactly why the
+query is prepared. That refusal is a good moment — it demonstrates the judgment
+the talk is arguing for.
+
+Two candidates were tested and rejected:
+
+- **Project retrospectives.** The completion sections are unfilled template
+  checklists. The only reflection in any of them is *"Simple project, nothing
+  really to reflect on."* There is nothing to synthesise, so the demo would have
+  quietly produced something thin while you talked over it.
+- **Weekly reviews.** 106 notes and by far the best answer — meetings recur in 25
+  separate weeks, one project dominated 12, and you wrote *"mostly a lot of
+  context switching last week"*, which is the exact problem the PKM was built to
+  solve. **But the same corpus contains layoffs, a merger, medical information, a
+  vendor called a shitshow, a colleague dispute and a dozen internal project
+  names.** Not projectable. Revisit only if you want to read the synthesis aloud
+  without showing the screen.
 
 ## Act 6 — Ollama on the Windows box · cap 3:00
 
