@@ -49,7 +49,7 @@ Ask it something ordinary. Let it be slower than the room expects and do not apo
 
 The argument to land while it generates: nothing I type leaves hardware I own. For anything genuinely confidential — medical, financial, legal, family — that property is the whole case, and it does not require trusting anyone's privacy policy. Worth adding that it also cannot be discontinued, price-raised, or quietly changed, which is a different kind of safety from privacy.
 
-Do not oversell the quality. It is visibly weaker than the frontier models and pretending otherwise costs credibility. Which sets up the next slide.
+Be accurate about the quality. At 26B this answers an ordinary question about as well as a frontier model would, so do NOT claim it looks visibly weaker — on this kind of question it doesn't, and the room can see that. The honest line is that the gap opens on genuinely hard reasoning, not on everyday questions. Which is exactly what sets up the next slide.
 
 Three minutes, then stop whatever is on screen.
 -->

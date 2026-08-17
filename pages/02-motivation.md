@@ -45,11 +45,12 @@ One more thing, and hold onto it. This presentation was itself put together by p
 
 # Four quadrants of skill
 
-- **Syntax** — knowing the incantation. **Algorithms** — the logic and the maths.
-- **Decomposition** — turning "we need something like this" into something buildable.
-- **Systems thinking** — how the parts interact, and what happens when one fails.
-- The first two got very cheap, very fast. The last two did not move at all.
-- **Value flows to scarcity.** Scarcity just moved.
+1. **Syntax** — knowing the incantation.
+2. **Algorithms** — the logic and the maths.
+3. **Decomposition** — turning "we need something like this" into something buildable.
+4. **Systems thinking** — how the parts interact, and what happens when one fails.
+
+The first two got very cheap, very fast. The last two didn't move at all — and **value flows to scarcity.**
 
 <!--
 Here is the frame that makes the rest of the talk make sense, and it is not really about programming.

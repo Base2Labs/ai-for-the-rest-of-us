@@ -32,10 +32,11 @@ This is from David Brooks, writing in The Atlantic in June, and the rest of this
 
 # Three kinds of people
 
-- Brooks' frame: what separates people now isn't intelligence. It's their **relationship to mental effort**.
-- **Cognitive misers** — find thinking unpleasant. AI is a permission slip to stop.
-- **Mental marathoners** — insist on running it anyway, the way people run 26.2 miles in a world with cars.
-- **Everyone else in the middle** — and which way they drift decides this.
+Brooks' frame: what separates people now isn't intelligence. It's their **relationship to mental effort**.
+
+1. **Cognitive misers** — find thinking unpleasant. AI is a permission slip to stop.
+2. **Mental marathoners** — insist on running it anyway, the way people run 26.2 miles in a world with cars.
+3. **Everyone else, in the middle** — and which way they drift decides this.
 
 <!--
 Brooks' argument, and the reason I find it more useful than the usual jobs conversation.
