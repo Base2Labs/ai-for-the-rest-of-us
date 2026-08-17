@@ -115,9 +115,11 @@ Use it for what you **can't** do — not just what you already can.
 
 Automating today's work makes you smaller.<br/>Reaching past your grasp makes you larger.
 
-The good news: appetite for hard thinking is **not fixed**. It responds to context.
+The good news: **this isn't a personality type.** Nobody is born a marathoner.
 
-Which means it's a choice, repeatedly — and you can build the conditions for it.
+Whether you do the hard thinking depends less on who you are than on what your day looks like — how tired you are, how much time you have, how easy the tool makes it to skip.
+
+**So don't try to be more disciplined. Change the conditions.** That's all the method from earlier is.
 <!--
 Here is the turn, and it is the whole reason this is a close rather than a warning.
 
@@ -125,9 +127,15 @@ Use it for what you cannot do, rather than only for what you can. Point it at wh
 
 Same tool. Opposite outcomes. The difference is entirely in what you asked of it.
 
-And here is the genuinely hopeful part, which is why this is a close and not a warning. Brooks is clear that appetite for hard thinking is not a fixed trait. It is extremely sensitive to context. It can be cultivated, or it can be eroded — by pressure, by deadlines, by tools that make it a little too easy to skip the part where you think.
+And here is the genuinely hopeful part, which is why this is a close and not a warning.
 
-Which means this is not a personality test you already passed or failed. It is a choice, made repeatedly, in small moments, and you can build the conditions that make it easier.
+Brooks is clear that this appetite is not a fixed trait — the psychologists call it need for cognition, and it is extremely sensitive to context. Say what that means in plain terms, because the phrase is useless on its own: whether you do the hard thinking on any given day has less to do with your character than with your circumstances. How much time you have. How tired you are. Whether the tool makes skipping frictionless. Whether anybody would notice if you did not.
+
+That matters enormously, because if it were a personality type this talk ends with "some of you are marathoners and the rest of you are out of luck." It is not. Nobody is born a marathoner.
+
+Call back to the sixty percent who felt pressured to use it. Those are not lazy people. Their calendar is making the choice for them — which is exactly the point. Change the calendar and you change the outcome, without anybody becoming a better person.
+
+So the instruction is not "have more willpower", which has never worked for anyone. It is: build the conditions where the hard thinking is the path of least resistance. And that is precisely what the method from earlier does — a rule that will not let you move on until you have written it up is a condition, not a virtue. You are not relying on being disciplined at four o'clock on a Thursday. You have arranged things so you do not have to be.
 
 That is what the technique from Act 4 actually is, and it is why it is the thing I would most want you to take. It is a method for using this to understand more, rather than to think less. It is written up properly — I will put the link on screen in a moment, along with everything else. It costs nothing and it is not about programming.
 
