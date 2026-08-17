@@ -2,6 +2,10 @@
 
 A talk on what changed with AI-assisted work, how the agent loop actually works, and how to work with it well — built with [Slidev](https://sli.dev).
 
+**📊 [Read the deck →](https://base2labs.github.io/ai-for-the-rest-of-us/)**
+
+Press `o` for a grid of all the slides, `p` for presenter mode with the speaker notes, and `d` to switch between light and dark.
+
 Deck source is split per act under `pages/`, imported by `slides.md` via Slidev's `src:` includes so each act can be edited independently.
 
 ## Structure
@@ -39,4 +43,4 @@ npm run dev
 npm run build
 ```
 
-Deploys automatically to GitHub Pages on push to `main` via `.github/workflows/deploy.yml`.
+Deploys automatically to <https://base2labs.github.io/ai-for-the-rest-of-us/> on push to `main`, via `.github/workflows/deploy.yml`.
