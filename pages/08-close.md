@@ -11,14 +11,10 @@ layout: default
 
 # "AI could have done that in five minutes"
 
-<v-clicks>
-
 - A head teacher shows his students a film. Two hundred artists. Five years.
 - The students are baffled. *Why would anyone do that?*
 - Nobody in that room was wrong about the facts. It **could** have been done in five minutes.
 - That's the whole question, and it isn't a technical one.
-
-</v-clicks>
 
 <!--
 One story, and then I am done.
@@ -36,14 +32,10 @@ This is from David Brooks, writing in The Atlantic in June, and the rest of this
 
 # Three kinds of people
 
-<v-clicks>
-
 - Brooks' frame: what separates people now isn't intelligence. It's their **relationship to mental effort**.
 - **Cognitive misers** — find thinking unpleasant. AI is a permission slip to stop.
 - **Mental marathoners** — insist on running it anyway, the way people run 26.2 miles in a world with cars.
 - **Everyone else in the middle** — and which way they drift decides this.
-
-</v-clicks>
 
 <!--
 Brooks' argument, and the reason I find it more useful than the usual jobs conversation.
@@ -64,14 +56,10 @@ class: text-center
 
 # Stretching, not atrophying
 
-<v-clicks>
-
 - Use it for what you **can't** do — not just what you already can.
 - Automating today's work makes you smaller. Reaching past your grasp makes you larger.
 - The good news: appetite for hard thinking is **not fixed**. It responds to context.
 - Which means it's a choice, repeatedly, and you can build the conditions for it.
-
-</v-clicks>
 
 <div class="mt-8 text-xl">
 

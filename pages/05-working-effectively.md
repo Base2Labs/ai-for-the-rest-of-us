@@ -12,13 +12,9 @@ layout: section
 
 # You're not writing prompts — you're managing a transcript
 
-<v-clicks>
-
 - The loop re-sends everything, every turn. So the transcript *is* the product.
 - Every technique that follows is one question: what earns its place in there?
 - "Prompt engineering" undersells it. This is closer to editing.
-
-</v-clicks>
 
 <!--
 This is the practical act — the one with things you can do on Monday. And all of it hangs off the fact we established a moment ago: the whole transcript goes back in, every turn.
@@ -32,13 +28,9 @@ The skill is curation. Nine slides of it, then something better at the end.
 
 # Plan first, execute second
 
-<v-clicks>
-
 - Do the thinking in one session. Do the work in another.
 - A plan is just a very well-structured prompt.
 - Planning is where you find out you asked for the wrong thing — cheap there, expensive later.
-
-</v-clicks>
 
 <!--
 The single highest-leverage habit, and it costs nothing.
@@ -54,13 +46,9 @@ For a non-technical audience the same thing holds for any big ask — a trip, a 
 
 # Start over more often than feels natural
 
-<v-clicks>
-
 - Sessions drift. Old context outlives its usefulness and starts doing harm.
 - Closing one is cheaper than fighting it.
 - One session, one task. When the task changes, the session should too.
-
-</v-clicks>
 
 <!--
 People are strangely reluctant to do this — a long chat feels like an investment, like you would be throwing away rapport. There is no rapport. There is only a transcript, and half of it is now working against you.
@@ -74,13 +62,9 @@ Carry forward a short summary you write yourself, and open a fresh one. Almost e
 
 # Don't hand it everything — tell it what exists
 
-<v-clicks>
-
 - Dumping everything in does not help. Signal drowns in noise.
 - Give it a map, and let it ask for the territory.
 - Load what the task needs, when the task needs it.
-
-</v-clicks>
 
 <!--
 The instinct is that more context is better. It is not. Everything you put in competes for attention with everything else, and past a point you are actively burying the part that mattered.
@@ -94,13 +78,9 @@ The general version, and it applies to your notes as much as to a codebase: orga
 
 # Consistency in, consistency out
 
-<v-clicks>
-
 - Your conventions are an instruction, whether or not you meant them to be.
 - It imitates what it finds. Tidy in, tidy out — and the reverse.
 - Free leverage: fix the pattern once, get it applied everywhere after.
-
-</v-clicks>
 
 <!--
 This one surprises people. The model reads the surroundings and copies the local style — naming, structure, how things are laid out. So your existing material is a prompt you never consciously wrote.
@@ -114,13 +94,9 @@ Non-technical version: if your documents follow a shape, anything it writes for 
 
 # Script the parts that repeat
 
-<v-clicks>
-
 - If a script can do it, a script should do it.
 - Same answer every time, instantly, for free.
 - Best use of the model: have it *write* the script, then stop calling it.
-
-</v-clicks>
 
 <!--
 There is a trap where, having found a tool that can do anything, you route everything through it. Do not. Anywhere the job is genuinely mechanical, ordinary code is better on every axis — faster, free, and identical every time you run it, which the model is not and never will be.
@@ -134,14 +110,10 @@ Keep the unpredictability where it earns its keep.
 
 # Which model should I use?
 
-<v-clicks>
-
 - The only version of this question that matters in practice.
 - Big model for judgment, taste, and anything ambiguous.
 - Small, cheap, fast model for volume and well-defined work.
 - Genuinely good pattern: small model does it, big model checks it.
-
-</v-clicks>
 
 <!--
 This is where parameters and reasoning modes and all the model trivia would normally go. Skip all of it. The practical question is just: which one do I point at this task?
@@ -157,13 +129,9 @@ And keep it swappable. These change every few months and you do not want to be m
 
 # Same model, very different results
 
-<v-clicks>
-
 - Every tool wraps the model in instructions you never see.
 - Identical model, different wrapper, genuinely different behaviour.
 - So "which AI is best" is the wrong question. Ask what it is set up to do.
-
-</v-clicks>
 
 <!--
 Underrated, and it explains a lot of contradictory experiences.
@@ -179,13 +147,9 @@ Pick for the job, not the badge. And know that when a tool feels wrong, the wrap
 
 # The 17% problem
 
-<v-clicks>
-
 - Controlled trial, Anthropic, January 2026: AI-assisted group scored **17% lower** on mastery.
 - Tested minutes after finishing. Biggest gap: debugging.
 - **The exception is the whole finding.** Those who asked *why* scored as well as the group with no AI at all.
-
-</v-clicks>
 
 <!--
 Now the uncomfortable part, and the reason the rest of this act is not enough on its own.
@@ -201,14 +165,10 @@ That is a finding, though. It tells you which group to be in and nothing about h
 
 # The roadmap that teaches you
 
-<v-clicks>
-
 - Everyone's instinct: *ask it to write the document, then read the document.*
 - This does the exact reverse.
 - One file holds the syllabus and a status column. Nothing is written up front.
 - It teaches you a topic in conversation — then quizzes you, and checks your answers.
-
-</v-clicks>
 
 <!--
 This is the best single idea I have to give you, it costs nothing, and it works for absolutely any subject.
@@ -229,14 +189,10 @@ layoutClass: gap-12
 
 # Writing it up is how you advance
 
-<v-clicks>
-
 - The write-up is the **gate**: no document, no next topic.
 - So the summarising step can't be skipped — and that step *is* the learning.
 - It must capture *the questions you actually asked*, not just the planned material.
 - The document is a **byproduct** of understanding, not a substitute for it.
-
-</v-clicks>
 
 ::right::
 

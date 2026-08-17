@@ -12,14 +12,10 @@ layout: section
 
 # This deck is the demo
 
-<v-clicks>
-
 - I promised you this at the start.
 - Ten years of notes: projects, talks, retrospectives, half-finished thoughts, things I'd forgotten writing.
 - An agent read across all of it and assembled what you have been looking at for the last hour.
 - Including things I did not remember I believed.
-
-</v-clicks>
 
 <!--
 Here is the bookend from the first ten minutes.
@@ -37,14 +33,10 @@ That is a real distinction, and it is the entire reason this next part is worth 
 
 # Your notes are the context window
 
-<v-clicks>
-
 - None of it was written for an AI. It was written over ten years, for me.
 - No system, no template, no clever tagging scheme. Just the habit of writing things down.
 - **The thing that made this possible was ordinary diligence, years earlier.**
 - Everyone in this room has some version of this. Notes, documents, photos, email, records.
-
-</v-clicks>
 
 <!--
 This is the slide for those of you who will never write a line of code, and I think it is the most useful thing I have to say tonight.
@@ -62,11 +54,7 @@ You all have a version of this. Notes, documents, photos, email, the family reco
 
 # Ask it something
 
-<v-clicks>
-
 - Live, against the actual notes. Not a rehearsed answer.
-
-</v-clicks>
 
 <!--
 🔴 LIVE — vault demo · HARD CAP 4:00
@@ -86,14 +74,10 @@ Four minutes. Stop when it is up.
 
 # The cost of not writing it down
 
-<v-clicks>
-
 - Every session starts from zero: who you are, how you work, what you already decided.
 - Explain it again. And again. Every conversation, every tool, forever.
 - Call it the **context repetition tax** — small each time, enormous in aggregate.
 - Pay it daily, or pay it once by writing things down.
-
-</v-clicks>
 
 <!--
 Here is the flip side of the memory wall, in terms that apply to everybody.
@@ -113,14 +97,10 @@ Keep it in plain text, keep it in pieces rather than one enormous document, and 
 
 # The dashboard, as a project
 
-<v-clicks>
-
 - The thing from the opening five minutes: describe a dashboard, watch it get built.
 - The dashboard is the hook. **The debug panel is the actual product.**
 - Deliberately small: a hand-written loop, no framework, heavily commented.
 - Built to be *read*, not to be used. It exists to make one idea visible.
-
-</v-clicks>
 
 <!--
 Briefly, the thing you opened on — because there is a point in how it is built, not just what it does.
@@ -141,14 +121,10 @@ layoutClass: gap-12
 
 # The next problem
 
-<v-clicks>
-
 - Agents throw away everything they learn at the end of every task.
 - Every clarification and correction — discarded on completion.
 - Tomorrow it makes the same mistake, and you correct it the same way.
 - The fix has a familiar shape.
-
-</v-clicks>
 
 ::right::
 

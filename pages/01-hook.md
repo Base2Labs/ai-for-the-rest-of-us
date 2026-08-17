@@ -34,12 +34,8 @@ At 5:00 you stop, mid-flow if necessary.
 
 # What just happened?
 
-<v-clicks>
-
 - No, really. What did you just watch?
 - We are not going to answer that for another half hour.
-
-</v-clicks>
 
 <!--
 Now stop, and let it be awkward for a moment.

@@ -11,13 +11,9 @@ layout: section
 
 # Two camps, both wrong
 
-<v-clicks>
-
 - **"It's slop."** Unreliable, overhyped, not to be trusted with anything real.
 - **"It replaces everyone."** Pick a date, name the profession.
 - The truth is in between — and it moves. What was true in January was wrong by June.
-
-</v-clicks>
 
 <!--
 You have met both of these people, and they are both very confident.
@@ -33,13 +29,9 @@ So I am not going to sell you either camp. I am going to show you the machinery,
 
 # Six months, zero lines of code by hand
 
-<v-clicks>
-
 - An experiment, not a survey: six months building real things, writing none of it directly.
 - Not a demo. Deadlines, mistakes, code other people rely on.
 - And this deck was itself assembled by an agent reading a decade of my notes. I'll show you at the end.
-
-</v-clicks>
 
 <!--
 Quick word on where this comes from, so you know what kind of evidence you are getting.
@@ -53,15 +45,11 @@ One more thing, and hold onto it. This presentation was itself put together by p
 
 # Four quadrants of skill
 
-<v-clicks>
-
 - **Syntax** — knowing the incantation. **Algorithms** — the logic and the maths.
 - **Decomposition** — turning "we need something like this" into something buildable.
 - **Systems thinking** — how the parts interact, and what happens when one fails.
 - The first two got very cheap, very fast. The last two did not move at all.
 - **Value flows to scarcity.** Scarcity just moved.
-
-</v-clicks>
 
 <!--
 Here is the frame that makes the rest of the talk make sense, and it is not really about programming.
@@ -81,15 +69,11 @@ Which brings us to the question everyone in this room is actually here to ask.
 
 # The bottleneck moved — it didn't disappear
 
-<v-clicks>
-
 - Say it out loud: *is this coming for my job too?*
 - The honest answer: the work relocated. It did not evaporate.
 - **Upstream** — deciding what is worth building, and being right about it.
 - **Downstream** — integrating, operating, and keeping it alive when it breaks.
 - The measured effect on people's days wasn't emptiness. It was intensity.
-
-</v-clicks>
 
 <!--
 Let me name the thing rather than talk around it, because it is what most of you came in with. Is this coming for my job.
@@ -109,14 +93,10 @@ So the real risk is not that there is nothing left for you to do. It is what hap
 
 # This already left software
 
-<v-clicks>
-
 - Paramedics, glaciologists, kayakers, restaurant operators, sales leaders — building their own tools.
 - A bot that phones restaurants, books the table, handles the invite, declares the allergies.
 - Product photography without the photoshoot. Meeting minutes returning **four hours a day** to one assistant.
 - The story isn't how software gets built. It's *what* gets built, and *who* builds it.
-
-</v-clicks>
 
 <!--
 Last one in this act, and it is the reason any of this is worth your time rather than just mine.

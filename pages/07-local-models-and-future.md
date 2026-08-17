@@ -13,14 +13,10 @@ layout: section
 
 # Open weights, plainly
 
-<v-clicks>
-
 - Some models are a **service you rent**. You send text away; someone else runs it.
 - Some are **files you download**. Multi-gigabyte files of numbers, yours to keep.
 - That is the whole distinction — and it is why running one at home is possible at all.
 - Rented ones are generally stronger. Downloaded ones are private, free to run, and cannot be taken away.
-
-</v-clicks>
 
 <!--
 Somebody asked about running these locally, so let me do the one distinction that makes it make sense.
@@ -38,11 +34,7 @@ Trade-offs are honest and simple. The rented ones are generally more capable, es
 
 # Off the internet, on this laptop
 
-<v-clicks>
-
 - No account. No subscription. No network.
-
-</v-clicks>
 
 <!--
 🔴 LIVE — Ollama, local · HARD CAP 3:00
@@ -62,14 +54,10 @@ Three minutes. Turn the wifi back on before Act 7 — the last slide has a URL o
 
 # When small is the right answer
 
-<v-clicks>
-
 - Cost, privacy, and speed all point the same way: smaller than you think.
 - Frontier models for judgment and ambiguity. Small models for volume and well-specified work.
 - **Best pattern going:** let the small model do it, and the big one check it.
 - Keep it swappable — this changes every few months, so don't marry one.
-
-</v-clicks>
 
 <!--
 So when is small actually right, beyond privacy.
@@ -85,14 +73,10 @@ And build so you can swap. The specific best model right now will not be the bes
 
 # The honest counterweight
 
-<v-clicks>
-
 - MIT: roughly **95%** of corporate generative-AI pilots deliver no measurable return.
 - The ones that work were aimed at **growth**, not at cutting headcount — 2–3× more likely, per McKinsey.
 - 43% of workers admit shipping AI output they suspected was wrong.
 - The technology is real. Most attempts to apply it are still bad.
-
-</v-clicks>
 
 <!--
 Before I finish, the slide that stops this being a sales pitch — and it is the honest state of things.

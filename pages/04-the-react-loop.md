@@ -12,13 +12,9 @@ layout: section
 
 # The reveal
 
-<v-clicks>
-
 - Everything that scrolled past in that panel was **one small loop**, running over and over.
 - Not a big intelligence doing a big thing.
 - A very small thing, done many times, with the result fed back in.
-
-</v-clicks>
 
 <!--
 Here is the answer I owed you.
@@ -37,14 +33,10 @@ layoutClass: gap-12
 
 # Reason, then act
 
-<v-clicks>
-
 - **Thought** — what should I do next?
 - **Action** — do exactly one thing.
 - **Observation** — what actually happened?
 - Then round again, with the observation added to what it knows.
-
-</v-clicks>
 
 ::right::
 
@@ -89,11 +81,7 @@ while True:
         return response.message
 ```
 
-<v-click>
-
 Ask the model. If it asked for something, do it and hand back the result. Otherwise, you're done.
-
-</v-click>
 
 <!--
 For the non-technical half of the room: you do not need to read this. Look at the shape of it. It is short, and it is a loop.
@@ -141,11 +129,7 @@ layoutClass: gap-8
 }
 ```
 
-<v-click>
-
 It didn't answer. It asked for something — by name.
-
-</v-click>
 
 <!--
 One slide of this, then we are done with code entirely. Do not read it out. Point at the shape.
@@ -163,14 +147,10 @@ Every single tool call you have ever seen — searching the web, reading a file,
 
 # The model never drew anything
 
-<v-clicks>
-
 - In that first demo, it emitted requests: *add a section*, *set this chart*, *change that colour*.
 - Ordinary, boring, deterministic code did every single one of them.
 - **Model proposes. Harness disposes.**
 - Which means the risky part is not the model. It's what you let it ask for.
-
-</v-clicks>
 
 <!--
 Back to the dashboard, because this is the idea I most want to survive the evening.
@@ -188,14 +168,10 @@ Every serious safety question about agents is really this question. What is on t
 
 # A tool is a function with a description
 
-<v-clicks>
-
 - A name, a description in plain English, and a list of inputs.
 - The model never sees the code. It only ever sees the **description**.
 - So the description is a prompt — and a vague one gets it used wrong.
 - Give it a bad list of tools and no model, however good, can save it.
-
-</v-clicks>
 
 <!--
 So what is a tool. Almost nothing. A name, a plain-English description of what it does, and what it needs to be given.
@@ -211,12 +187,8 @@ If you ever build one of these: the tool descriptions are the product. Everyone 
 
 # Watch it decide
 
-<v-clicks>
-
 - Same demo. Same panel. This time you know what you're looking at.
 - One deliberately ambiguous request — and watch it *refuse to guess*.
-
-</v-clicks>
 
 <!--
 🔴 LIVE — react-loop-demo · HARD CAP 3:00
@@ -236,14 +208,10 @@ Three minutes. Then stop, whatever is on screen.
 
 # Why there's a context limit
 
-<v-clicks>
-
 - The loop re-sends the **entire** conversation, every single pass.
 - Turn twenty is re-reading turns one through nineteen. Again.
 - So it grows — and what you're running out of is the transcript, not the intelligence.
 - Longer conversation, slower and more expensive every turn.
-
-</v-clicks>
 
 <!--
 Now we collect on the promise from the primer, and this is where all the jargon you have half-heard starts to mean something.
@@ -259,14 +227,10 @@ You are not running out of intelligence. You are running out of room.
 
 # Why it forgets in the middle of a task
 
-<v-clicks>
-
 - Eventually the transcript stops fitting.
 - So something summarises it to make room — that's compaction.
 - **A summary is lossy by definition.** Something you cared about may not survive it.
 - The fix isn't a bigger window. It's putting less in, and starting fresh sooner.
-
-</v-clicks>
 
 <!--
 So what happens when the pile stops fitting. Something has to give, and what gives is the older part of the conversation — it gets summarised down to make room. That is compaction, and it happens automatically, usually without telling you.
@@ -282,14 +246,10 @@ That is the first genuinely practical thing in this talk, and the whole of the n
 
 # The memory wall
 
-<v-clicks>
-
 - Close the session and everything is gone. Every time. Every tool.
 - It relearns your project, your preferences, your standards — from scratch, daily.
 - The workarounds are everywhere: brain files, memory servers, knowledge graphs.
 - A meaningful share of what people build is just this — elaborate compensation for forgetting.
-
-</v-clicks>
 
 <!--
 Now the bigger version of the same problem, and this one is unsolved industry-wide.
@@ -307,13 +267,9 @@ Hold that thought, because there is a real answer taking shape and I will come b
 
 # Everything after this is loop management
 
-<v-clicks>
-
 - Prompts, planning, sessions, skills, memory, scripts, model choice.
 - Every one of them is the same question: **what goes in the transcript, and when?**
 - You now have the whole mechanism. The rest is technique.
-
-</v-clicks>
 
 <!--
 Last slide of the act, and it is a hinge.

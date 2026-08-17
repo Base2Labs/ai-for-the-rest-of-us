@@ -11,13 +11,9 @@ layout: section
 
 # Text in, text out
 
-<v-clicks>
-
 - One function. Text goes in, text comes out.
 - No memory. No files. No internet. No clock.
 - Everything you have ever used it through is ordinary software wrapped around that one function.
-
-</v-clicks>
 
 <!--
 Four minutes here, no more. This is a primer, not an act — the only job is to install three facts that the next act needs.
@@ -31,13 +27,9 @@ It cannot remember, browse, check the time, or open a file. Everything that look
 
 # It remembers nothing
 
-<v-clicks>
-
 - There is no conversation inside the model.
 - Every turn re-sends the whole transcript, from the top.
 - "Continuing" a chat means re-reading it in full, every single time.
-
-</v-clicks>
 
 <!--
 If anyone takes one fact away from this section, make it this one.
@@ -51,13 +43,9 @@ That sounds wasteful, and it is. But it explains nearly everything that comes la
 
 # It predicts — it doesn't look things up
 
-<v-clicks>
-
 - Trained to continue text plausibly, not to retrieve facts.
 - Fluent and correct are two separate dials — and you can only see one of them.
 - So the interesting question isn't what it knows. It's what we let it *do*.
-
-</v-clicks>
 
 <!--
 Last fact. The model is not consulting a database. It is producing the most plausible continuation of the text it was given, and it is extraordinarily good at that.
