@@ -313,7 +313,7 @@ That is the first genuinely practical thing in this talk, and the whole of the n
 - Someone reviewed **~100 agents** built for one competition. A meaningful number were, underneath, just this.
 
 <!--
-Now the bigger version of the same problem, and this one is unsolved industry-wide.
+Now the bigger version of the same problem, and this one the whole field is still wrestling with.
 
 Everything so far was about one conversation. But close it, and all of it is gone. Not compacted — gone. Tomorrow it does not know your project, your preferences, the standard you spent an hour establishing, or the thing you told it three times not to do.
 

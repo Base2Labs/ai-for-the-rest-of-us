@@ -90,7 +90,7 @@ layout: two-cols
 - Every skill and instruction file so far — **you** wrote it, by hand, when you happened to notice.
 - So you capture the lessons you caught, on the days you had the patience. Nothing from the tasks you weren't watching.
 - The open problem: **the system writing its own**, from watching itself work.
-- Nobody has this solved. But the shape is already familiar.
+- **This is the frontier** — automated memory systems are being built now. The shape is already familiar.
 
 ::right::
 
@@ -113,7 +113,9 @@ Here is the limit. Every one of those files exists because a person noticed some
 
 What is missing is the system doing it itself. Finishing a piece of work, looking back over how it actually went, pulling out what it learned, and folding that into the instructions for next time — with nobody sitting there authoring it.
 
-That is genuinely the hard problem in this field right now and I am not going to pretend otherwise. I have spent a few months on it and what I have is a working sketch, not an answer.
+Be accurate about where this stands, because somebody in the room may well know more than me. This is not untouched ground — automated and implicit memory systems are actively being built, and some are further along than my own attempt. What I do not think anybody can honestly claim yet is that it is settled: how much a system should trust its own conclusions about its work, and how you stop it confidently learning the wrong lesson, are still open.
+
+So: an active frontier rather than an empty one. I have spent a few months on it and what I have is a working sketch, not an answer.
 
 Now point at the diagram, because this is my favourite fact in the talk. That shape is the same shape as the one from earlier, when I showed you how I learn a hard topic. Do the work, reflect on it, write down what changed, and only then advance.
 
