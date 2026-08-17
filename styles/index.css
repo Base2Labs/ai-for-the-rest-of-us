@@ -13,7 +13,7 @@
 }
 
 .slidev-layout h1 {
-  font-size: 2.5rem;
+  font-size: 2.6rem;
   line-height: 1.15;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -25,15 +25,36 @@
   font-weight: 650;
 }
 
-.slidev-layout ul > li {
-  font-size: 1.2rem;
+.slidev-layout ul > li,
+.slidev-layout ol > li {
+  font-size: 1.4rem;
   line-height: 1.5;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.75rem;
 }
 
 .slidev-layout p {
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   line-height: 1.5;
+}
+
+/* Two-column slides run in a narrow measure — keep their text a notch smaller
+   so bullets don't wrap into ribbons beside a diagram. */
+.narrow-cols ul > li,
+.narrow-cols ol > li,
+.narrow-cols p {
+  font-size: 1.1rem;
+  line-height: 1.45;
+  margin-bottom: 0.55rem;
+}
+
+.narrow-cols h1 {
+  font-size: 2rem;
+}
+
+.narrow-cols pre,
+.narrow-cols code {
+  font-size: 0.8rem;
+  line-height: 1.45;
 }
 
 /* Bold carries the point on nearly every slide — make it actually read as bold. */
@@ -55,16 +76,6 @@
   font-size: 3.25rem;
 }
 
-/* Two-column slides (the payload comparison, the loop diagram) run tight. */
-.slidev-layout.slidev-layout-two-cols pre,
-.slidev-layout.slidev-layout-two-cols code {
-  font-size: 0.8rem;
-  line-height: 1.45;
-}
-
-.slidev-layout.slidev-layout-two-cols h1 {
-  font-size: 1.9rem;
-}
 
 /* Mermaid: let diagrams breathe and keep their labels readable at distance. */
 .slidev-layout .mermaid {

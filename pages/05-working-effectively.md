@@ -181,10 +181,8 @@ Only after all of that does anything get written down. Which brings us to the tr
 -->
 
 ---
-
----
 layout: two-cols
-layoutClass: gap-12
+layoutClass: gap-12 narrow-cols
 ---
 
 # Writing it up is how you advance

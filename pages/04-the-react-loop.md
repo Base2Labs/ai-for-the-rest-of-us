@@ -28,7 +28,7 @@ The next ten minutes take it apart. This is the centre of the talk — everythin
 
 ---
 layout: two-cols
-layoutClass: gap-12
+layoutClass: gap-12 narrow-cols
 ---
 
 # Reason, then act
@@ -40,18 +40,14 @@ layoutClass: gap-12
 
 ::right::
 
-```mermaid {scale: 0.68}
+```mermaid {scale: 0.82}
 flowchart TD
-    A["Agent program<br/>ordinary code"]
-    M["Model<br/>reasons"]
-    T[("Tools")]
+    M["Model<br/>decides what's next"]
+    A["Agent program<br/>runs the tool"]
     D(["Final answer"])
-
-    A -->|"whole conversation"| M
     M -->|"tool call"| A
-    A -->|"run it"| T
-    T -->|"observation"| A
-    M -.->|"nothing to call"| D
+    A -->|"observation"| M
+    M -.->|"nothing left to call"| D
 ```
 
 <!--
@@ -95,7 +91,7 @@ The two things worth noticing. Everything gets appended to that one growing conv
 
 ---
 layout: two-cols
-layoutClass: gap-8
+layoutClass: gap-8 narrow-cols
 ---
 
 # What goes in

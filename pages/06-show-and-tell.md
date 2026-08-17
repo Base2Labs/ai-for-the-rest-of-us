@@ -13,14 +13,14 @@ layout: section
 # This deck is the demo
 
 - I promised you this at the start.
-- Ten years of notes: projects, talks, retrospectives, half-finished thoughts, things I'd forgotten writing.
+- **1,100 notes. Around half a million words.** Projects, retrospectives, book highlights, half-finished thoughts.
 - An agent read across all of it and assembled what you have been looking at for the last hour.
 - Including things I did not remember I believed.
 
 <!--
 Here is the bookend from the first ten minutes.
 
-This presentation was not written the normal way. I pointed an agent at a decade of my own notes — old projects, talks I gave years ago and archived, retrospectives from things that went badly, book highlights, half-finished thoughts — and asked it to build a talk out of what was in there.
+This presentation was not written the normal way. I pointed an agent at my own notes — about eleven hundred of them, something like half a million words, which is six novels' worth of me talking to myself — and asked it to build a talk out of what was in there. Projects, retrospectives from things that went badly, book highlights, half-finished thoughts.
 
 The structure you have been sitting through is the result. It found the connection between a study I saved in March and a closing argument I wrote in July, which I had never consciously connected myself.
 
@@ -33,21 +33,25 @@ That is a real distinction, and it is the entire reason this next part is worth 
 
 # Your notes are the context window
 
-- None of it was written for an AI. It was written over ten years, for me.
-- No system, no template, no clever tagging scheme. Just the habit of writing things down.
-- **The thing that made this possible was ordinary diligence, years earlier.**
-- Everyone in this room has some version of this. Notes, documents, photos, email, records.
+- I didn't start this for AI. I started it because I was **drowning in context switching** at work.
+- I wanted one place that kept me grounded and told me where I was. So I picked a system and stuck to it.
+- Two years later, that habit had quietly built something an agent could read end to end.
+- **The corpus was a side effect.** Most of you already have some version of it.
 
 <!--
 This is the slide for those of you who will never write a line of code, and I think it is the most useful thing I have to say tonight.
 
-None of those notes were written for an AI. Most of them predate all of this. There was no system, no special format, no clever tagging. It is a decade of somebody writing things down because it seemed sensible at the time.
+Be honest about why this exists, because the accident is the whole point. I did not start keeping notes because I thought an AI would one day read them. I started because my job had me switching context constantly — different projects, different problems, picked up and put down a dozen times a day — and I could not hold it in my head. I wanted one place that kept me grounded and told me where I was.
 
-And that turned out to be enough. The thing that made this possible was not a tool or a technique or a subscription. It was ordinary diligence, years earlier, by someone who had no idea it would ever pay off like this.
+So I set up a system properly: a standard format for daily notes, a consistent way of filing things so I could find them again. Entirely for me. Entirely about staying on top of work.
 
-Which flips the usual advice. People ask me which AI to use. Much more of the answer is: what have you got for it to read? Two people with the identical tool get wildly different results based entirely on what they can hand it.
+Two years of that turned out to have built something else without my noticing — a body of writing about how I actually think and work, in my own words, that an agent can read end to end. The corpus was a side effect of the habit.
 
-You all have a version of this. Notes, documents, photos, email, the family records somebody has been quietly maintaining for twenty years. That material is the raw ingredient. The advice is not "adopt my system" — I did not have one. It is just: write things down. You are building the context window for a version of yourself who will need it later.
+That is the part I want you to take, and notice how low the bar is. Nobody has to design this, and you do not need a reason that has anything to do with AI. The reason most people already have is the one I had: there is too much going on to keep in your head.
+
+Which also flips the usual question. People ask me which AI to use. Much more of the answer is: what have you got for it to read? Two people with the identical tool get wildly different results based entirely on what they can hand it.
+
+You all have a version of this. Notes, documents, photos, email, the family records somebody has been quietly maintaining for twenty years. That is the raw ingredient.
 -->
 
 ---
@@ -113,10 +117,8 @@ Under it is the same loop from Act 3, written by hand — no framework — and c
 -->
 
 ---
-
----
 layout: two-cols
-layoutClass: gap-12
+layoutClass: gap-12 narrow-cols
 ---
 
 # The next problem

@@ -57,10 +57,13 @@ class: text-center
 
 # Stretching, not atrophying
 
-- Use it for what you **can't** do — not just what you already can.
-- Automating today's work makes you smaller. Reaching past your grasp makes you larger.
-- The good news: appetite for hard thinking is **not fixed**. It responds to context.
-- Which means it's a choice, repeatedly, and you can build the conditions for it.
+Use it for what you **can't** do — not just what you already can.
+
+Automating today's work makes you smaller.<br/>Reaching past your grasp makes you larger.
+
+The good news: appetite for hard thinking is **not fixed**. It responds to context.
+
+Which means it's a choice, repeatedly — and you can build the conditions for it.
 
 <div class="mt-8 text-xl">
 
