@@ -168,6 +168,7 @@ Every serious safety question about agents is really this question. What is on t
 - The model never sees the code. It only ever sees the **description**.
 - So the description is a prompt — and a vague one gets it used wrong.
 - Give it a bad list of tools and no model, however good, can save it.
+- You'll hear **MCP**. That's just a standard way to hand an agent tools somebody else wrote.
 
 <!--
 So what is a tool. Almost nothing. A name, a plain-English description of what it does, and what it needs to be given.
@@ -177,6 +178,14 @@ Here is the part people get wrong. The model never sees how the tool works. It o
 Which means most "the AI is being stupid" problems are actually design problems. Vague description, badly chosen set of tools, two that overlap so it cannot tell which one you meant. No model is good enough to rescue a bad list.
 
 If you ever build one of these: the tool descriptions are the product. Everyone spends their time on the prompt and then wonders why it keeps picking the wrong thing.
+
+One piece of vocabulary while we are here, and then we move on — because you will hear it constantly and it sounds far grander than it is. MCP, the Model Context Protocol. All it is: an agreed format for handing an agent a list of tools that somebody else wrote.
+
+Before it, if you wanted your agent to talk to your calendar or your files or some company's system, somebody had to wire that up by hand, specifically, every time. MCP means whoever owns that system publishes their tools once, in a shape every agent understands, and any agent can pick them up.
+
+So it is not a new capability and it is not intelligence. It is a plug shape. Exactly what is on this slide — name, description, inputs — with an agreement about how it gets delivered. That is genuinely the whole thing, and thirty seconds is all it deserves.
+
+Worth saying because the word is everywhere right now, and the people using it rarely stop to say it means "a standard list of tools."
 -->
 
 ---

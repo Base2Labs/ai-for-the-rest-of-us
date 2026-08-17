@@ -16,17 +16,21 @@ layout: section
 
 # Open weights, plainly
 
-- Some models are a **service you rent**. You send text away; someone else runs it.
-- Some are **files you download**. Multi-gigabyte files of numbers, yours to keep.
-- That is the whole distinction — and it is why running one at home is possible at all.
-- Rented ones are generally stronger. Downloaded ones are private, free to run, and cannot be taken away.
+- Some models are a **service you rent**. You send text away; someone else's computer runs it.
+- Some are **files you download** — a few gigabytes of numbers. Those numbers *are* the model.
+- Publish the numbers and people call them **open weights**. Not quite open source; the practical fact is you have the file.
+- That is why running one at home is possible at all. Rented ones are stronger; downloaded ones are private and cannot be taken away.
 
 <!--
 Somebody asked about running these locally, so let me do the one distinction that makes it make sense.
 
 Some models are a service. You send your text to a company, their computers do the work, you get an answer back. Everything most people use is this.
 
-Others are published as files. Genuinely just files — several gigabytes of numbers — that you download and run on your own machine. That is what open weights means. Not open source exactly, and the licences vary, but the practical fact is: you have the file.
+Others are published as files. Genuinely just files — several gigabytes of numbers — that you download and run on your own machine.
+
+Say the next bit slowly, because it is the only time all night I use the word. Those numbers are not a description of the model, they are the model; the whole thing is a very large pile of numbers and some arithmetic to run them through. The numbers are called the weights. When somebody publishes them for anyone to download, that is open weights. Not open source exactly — the licences vary and some are restrictive — but the practical fact is the one that matters: you have the file.
+
+I deliberately did not explain weights earlier because you did not need them to understand anything up to this point. You need them now, and one sentence is the whole of it.
 
 That is the entire reason local models exist. You cannot run a rented model at home because you were never given it.
 
