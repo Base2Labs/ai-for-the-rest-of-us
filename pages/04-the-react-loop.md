@@ -310,14 +310,16 @@ That is the first genuinely practical thing in this talk, and the whole of the n
 - Close the session and everything is gone. Every time. Every tool.
 - It relearns your project, your preferences, your standards — from scratch, daily.
 - The workarounds are everywhere: brain files, memory servers, knowledge graphs.
-- A meaningful share of what people build is just this — elaborate compensation for forgetting.
+- Someone reviewed **~100 agents** built for one competition. A meaningful number were, underneath, just this.
 
 <!--
 Now the bigger version of the same problem, and this one is unsolved industry-wide.
 
 Everything so far was about one conversation. But close it, and all of it is gone. Not compacted — gone. Tomorrow it does not know your project, your preferences, the standard you spent an hour establishing, or the thing you told it three times not to do.
 
-Someone reviewing a large pile of agent projects observed that a meaningful number of them were, underneath, elaborate workarounds for agents forgetting everything between sessions. Fifty-odd markdown files acting as a brain. Shared memory servers. Knowledge graphs. Plain text files passed hand to hand.
+Be specific about who, because it is the interesting part. A competition ran a bracket of agent projects — close to a hundred of them, built by independent developers rather than by labs or vendors. Somebody went through the lot and noticed that a meaningful number were, underneath the surface, elaborate workarounds for agents forgetting everything between sessions. Fifty-odd markdown files acting as a brain. Shared memory servers. Knowledge graphs. Plain text files passed hand to hand.
+
+That is a hundred people independently hitting the same wall and independently improvising their own scaffolding, none of them talking to each other. Which tells you it is not a gap in anyone's skill — it is a gap in the technology.
 
 Everyone hit the same wall and everyone improvised their own scaffolding. That is where the field actually is, under the marketing.
 
