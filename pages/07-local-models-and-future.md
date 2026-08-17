@@ -18,8 +18,9 @@ layout: section
 
 - Some models are a **service you rent**. You send text away; someone else's computer runs it.
 - Some are **files you download** — a few gigabytes of numbers. Those numbers *are* the model.
-- Publish the numbers and people call them **open weights**. Not quite open source; the practical fact is you have the file.
-- That is why running one at home is possible at all. Rented ones are stronger; downloaded ones are private and cannot be taken away.
+- Those numbers have a name: the **weights**. Publish them for anyone to download and that's **open weights**.
+- Not quite open source — licences vary — but the practical fact is the one that matters: you have the file.
+- That's why running one at home is possible at all. Rented ones are stronger; downloaded ones are private and can't be taken away.
 
 <!--
 Somebody asked about running these locally, so let me do the one distinction that makes it make sense.
