@@ -2,7 +2,7 @@
 layout: section
 ---
 
-<!-- ACT 4 — WORKING EFFECTIVELY · 14 min · 11 slides · no demo -->
+<!-- ACT 4 — WORKING EFFECTIVELY · ~15 min · 12 slides · no demo -->
 <!-- The practical take-home act. De-jargoned from source 06-determinism / 07-context-management / 09-metacognition. -->
 <!-- Ends on meta-learning by design — that hands Act 7 a method instead of an exhortation. -->
 
@@ -104,6 +104,27 @@ There is a trap where, having found a tool that can do anything, you route every
 The move is to use inference to produce the script, once, and then just run the script forever. You spend the expensive, creative, unpredictable thing on the part that is actually creative, and let boring reliable code handle the boring reliable part.
 
 Keep the unpredictability where it earns its keep.
+-->
+
+---
+
+# Write the instructions down once
+
+- Some work repeats but needs judgment, so a script won't do it.
+- A **skill** is instructions you write once, that get loaded when that kind of task comes up.
+- An **agent definition** is the same idea one level up: a named worker with its own instructions, its own tools, its own model.
+- You are not configuring software. You are **writing down how you want things done** — and it is the same move as everything else in this act.
+
+<!--
+The slide before this said: if a script can do it, let a script do it. But a lot of recurring work needs judgment, so a script cannot do it — and that is where most people go back to re-explaining themselves every single session.
+
+A skill is the fix, and the word makes it sound more technical than it is. It is a set of instructions you write down once — how we do code review here, what our house style is, the checklist for closing out a piece of work — kept somewhere the assistant can pick up when that kind of task comes round. You wrote it once. It applies every time after.
+
+An agent definition is the same idea one level up. Rather than instructions for a task, it is a whole named worker with its own instructions, its own list of tools, and its own model — one that only reviews, one that only researches, one that only drafts. And now you know exactly what that is, because we did this in Act 3: it is the loop, with a particular tool list and a particular set of instructions. Nothing more.
+
+Here is the part I want the non-technical half of the room to hear, because this is not really a software idea. Every one of these exists for the same reason: somebody got tired of explaining the same thing over and over, and wrote it down instead. That is it. That is the whole invention.
+
+You will hear this again in twenty minutes with a name attached — the context repetition tax — and it is the same lesson as the notes, the same lesson as the learning technique. The thing you write down is the thing that stops costing you.
 -->
 
 ---
