@@ -83,7 +83,11 @@ I am not going to reassure you, because reassurance from someone whose field it 
 
 The bottleneck moved. Building things was the constraint for decades — never enough people who could do it. That constraint is largely gone, and when a constraint goes, the pressure does not vanish, it relocates to whatever is now tightest. It went upstream, to deciding what is worth building and being right about it. And downstream, to integrating and running and fixing the much larger volume of stuff now being produced.
 
-And the data on this is genuinely surprising. ActiveTrack studied over ten thousand workers after AI adoption. Time in email and chat more than doubled. Business software use went up ninety-four percent. Focused, uninterrupted work fell nine percent. Berkeley researchers found people took back tasks they had previously delegated away.
+And the data on this is genuinely surprising, and it is not a small study. ActivTrak looked at 443 million hours of actual work activity — a hundred and sixty thousand employees across eleven hundred organisations — before and after AI adoption.
+
+Time in email went up a hundred and four percent. Chat and messaging, a hundred and forty-five percent. Use of business software, ninety-four percent. And focused, uninterrupted work fell nine percent — about twenty-three minutes a day, gone.
+
+That twenty-three minutes is the number to say slowly. It is the part of the day where you actually think, and it is the part that shrank.
 
 Nobody's day got emptier. Everybody's day got faster and more fragmented. There is already a name going around for how that feels — AI brain fry.
 

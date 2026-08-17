@@ -186,6 +186,8 @@ Everything I cited, so you can check me rather than take my word for it.
 - **Forevergreen and "baffled practicality"** — Chris Sibben, *A Hollow Crown*, Mere Orthodoxy, Apr 2026
 - **The loop itself** — Yao et al., *ReAct*, 2022 · `arxiv.org/abs/2210.03629`
 - **95% of pilots** — MIT NANDA/Media Lab GenAI Divide report, 2025 · **McKinsey** on growth vs efficiency
+- **Work got more intense, not lighter** — ActivTrak, *2026 State of the Workplace* (443M hours, 163,638 employees) · `activtrak.com/resources/state-of-the-workplace`
+- **The memory wall, ~100 agents** — *Agent Madness* bracket + The AI Daily Brief, Apr 2026 · `agentmadness.ai`
 
 <!--
 This slide exists because the repo is public and because half of what I said tonight is other people's work. Nobody needs it read aloud — it is here so the claims are checkable and the people who did the research are named.
