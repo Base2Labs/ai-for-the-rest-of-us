@@ -32,22 +32,26 @@ Trade-offs are honest and simple. The rented ones are generally more capable, es
 
 ---
 
-# Off the internet, on this laptop
+# On a machine in my house
 
-- No account. No subscription. No network.
+- Not a data centre. No account, no subscription, nobody's API.
+- The model is a file I downloaded. It runs on hardware I own.
+- Which means nothing I type goes anywhere, and nobody can change it underneath me next Tuesday.
 
 <!--
-🔴 LIVE — Ollama, local · HARD CAP 3:00
+🔴 LIVE — Ollama on the Windows box over RDP · HARD CAP 3:00 · runbook in notes/demo-runbook.md
 
-Turn the wifi off first, visibly, and say what you are doing. That is the whole demo — the disconnection is the point, not the answer.
+⚠️ Do NOT claim to be offline. The RDP session needs the network, so "watch me pull the wifi" is not available and would be a lie. The honest claim is ownership, not disconnection.
 
-Ask it something ordinary. Let it be a bit slower than the room expects, and let that be visible; do not apologise for it. The honest framing is that this is a laptop doing something that required a data centre three years ago.
+Say where you are: this is a desktop in my house, and I am looking at its screen from here. The model on it is a file I downloaded — a few gigabytes of numbers — and it is doing the work on that machine, not in anybody's data centre.
 
-Worth saying while it generates: this one is a few gigabytes and it is running on the machine in front of you. Nothing is being sent anywhere. For anything genuinely confidential — medical, financial, legal, family — that property is the entire argument, and it does not require trusting anybody's privacy policy.
+Ask it something ordinary. Let it be slower than the room expects and do not apologise for the wait; a machine in a spare room doing this at all is the point.
+
+The argument to land while it generates: nothing I type leaves hardware I own. For anything genuinely confidential — medical, financial, legal, family — that property is the whole case, and it does not require trusting anyone's privacy policy. Worth adding that it also cannot be discontinued, price-raised, or quietly changed, which is a different kind of safety from privacy.
 
 Do not oversell the quality. It is visibly weaker than the frontier models and pretending otherwise costs credibility. Which sets up the next slide.
 
-Three minutes. Turn the wifi back on before Act 7 — the last slide has a URL on it.
+Three minutes, then stop whatever is on screen.
 -->
 
 ---
