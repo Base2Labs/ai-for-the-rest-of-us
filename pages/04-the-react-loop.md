@@ -2,7 +2,7 @@
 layout: section
 ---
 
-<!-- ACT 3 — THE REACT LOOP · ~16 min · 12 slides · live demo cap 3:00 -->
+<!-- ACT 3 — THE REACT LOOP · ~17 min · 13 slides · live demo cap 3:00 -->
 <!-- ⭐ THE SPINE. Largest act. Everything downstream is a consequence of mechanics introduced here. -->
 <!-- Code is texture — narrate it, never walk it line by line. Mixed audience. -->
 
@@ -200,6 +200,35 @@ You already understood agents. You just did not know that was what they were cal
 And it hands you a question worth keeping. When somebody sells you, or your employer, an AI agent, the question is not how clever is it. It is: what is on its tool list, and who decided what goes on it? Something that can only read is safe. Something that can send email on your behalf is an entirely different proposition, and it is the same technology.
 
 That is also the answer to "how do you let one of these loose safely" — and you now know enough to ask it.
+-->
+
+---
+
+# Where the tools point
+
+```mermaid {scale: 0.78}
+flowchart LR
+    M["Model"]
+    M -->|"a chatbot's tools"| A[("Someone else's API")]
+    M -->|"a coding agent's tools"| B[("Files, shell, git")]
+    M ==>|"these tools"| C[("The app's own state")]
+    A --> A2["Text for you to read"]
+    B --> B2["Changed files on disk"]
+    C ==> C2["The screen changes"]
+```
+
+Most agents reach **out** — to an API, to your filesystem. This one reaches **in**.
+
+<!--
+This is the subtle thing about that demo, and it is worth thirty seconds because almost nobody points it out.
+
+Nearly every agent you have met falls into one of the top two rows. A chatbot with tools reaches out to somebody else's service, gets data back, and writes you a paragraph — the output is text, and you are the one who acts on it. A coding agent reaches out to the filesystem and the shell; it changes files on your disk, outside whatever app you were using.
+
+The demo you watched is the third row, and it is a different animal. Those tools are not fetching anything and they are not touching your computer. They live inside the running application, and all they do is modify the application's own state — add a section, set this chart, change that colour. Then ordinary React notices the state changed and redraws.
+
+So nothing was generated for you to read, and nothing was written to a file. The software was being operated. That is the distinction: an agent that tells you things versus an agent that works the controls.
+
+For the engineers, that is the interesting frontier — the agent as a control surface for an application rather than a chat window bolted onto the side of one. For everybody else, it is why that demo did not look like ChatGPT: you were not being handed an answer, you were watching software get driven.
 -->
 
 ---

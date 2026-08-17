@@ -53,19 +53,20 @@ already spending.
 `d` toggles dark/light if the room is brighter than expected. `o` is the slide
 overview.
 
-**54 slides.** Type a number and press Enter to jump straight to it.
+**55 slides.** Type a number and press Enter to jump straight to it.
 
 | Slide | What |
 |---:|---|
 | **2** | 🔴 Act 0 demo — "This would normally take a developer weeks" |
 | 3 | "What just happened?" — the beat, then Act 1 |
 | 16 | ReAct loop diagram |
-| **22** | 🔴 Act 3 demo — replay the panel |
-| 39 | Learning-loop diagram (personal) |
-| **43** | 🔴 Act 5 demo — ask the vault |
-| 46 | Learning-loop diagram (agent) — same shape as 39, on purpose |
-| **49** | 🔴 Act 6 demo — Ollama over RDP |
-| 54 | Close, with the artifacts URL on screen |
+| 22 | "Where the tools point" diagram — the subtle one |
+| **23** | 🔴 Act 3 demo — replay the panel |
+| 40 | Learning-loop diagram (personal) |
+| **44** | 🔴 Act 5 demo — ask the vault |
+| 47 | Learning-loop diagram (agent) — same shape as 40, on purpose |
+| **50** | 🔴 Act 6 demo — Ollama over RDP |
+| 55 | Close, with the artifacts URL on screen |
 
 ---
 
